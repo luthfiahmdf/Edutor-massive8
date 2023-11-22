@@ -4,7 +4,7 @@ import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
 export default function FooterComponent() {
   return (
     <>
-      <footer className="bg-gray-700">
+      <footer className="bg-gray-700 shadow-2xl">
         <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <a href="#" className="\gap-2 flex items-center mb-4 sm:mb-1">

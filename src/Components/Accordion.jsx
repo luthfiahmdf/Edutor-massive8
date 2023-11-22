@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Accordion as FlowbiteAccordion } from 'flowbite-react';
 
-const AccordionFlowbite = () => {
+const Accordion = () => {
   // State to manage the open/closed state of accordion items
   const [activeAccordion, setActiveAccordion] = useState(null);
 
@@ -102,5 +102,4 @@ const AccordionFlowbite = () => {
     </FlowbiteAccordion>
   );
 };
-
-export default AccordionFlowbite;
+export default Accordion;

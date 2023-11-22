@@ -3,6 +3,7 @@ import Navbar from '../../../Components/Navbar';
 import AccordionFlowbite from '../../../Components/Accordion';
 import Card from '../../../Components/Card';
 import CardSlider from '../../../Components/Swiper';
+import { Link } from 'react-router-dom';
 
 const cardData = [
   {
@@ -48,16 +49,12 @@ const cardData = [
 ];
 export const HardSkill = () => {
   return (
-    <div className="bg-black min-h-screen ">
+    <div className="bg-black min-h-screen shadow-md ">
       <Navbar />
       <div className="container mx-auto my-10">
         <div className="grid max-w-screen-xl mx-auto gap-8 lg:grid-cols-2 xl:grid-cols-2">
           <div className=" lg:col-span-3 xl:col-span-3 text-center mb-8" />
-          <div className="lg:col-span-1 xl:col-span-1">
-            <div className="font-black text-primary text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
-              <img src="/public/image/banner1.png" alt="edutorlogo" className="w-full h-auto rounded-md" />
-            </div>
-          </div>
+          <img src="/public/image/banner1.png" alt="edutorlogo" className="  rounded-md" />
 
           <div className="lg:col-span-3 xl:col-span-1">
             <div className="text-white text-start text-lg lg:text-xl xl:text-3xl gap-2 col-auto">
@@ -65,7 +62,7 @@ export const HardSkill = () => {
               <p className="mt-10 font-bold text-3xl lg:text-4xl xl:text-6xl">Kembangkan keterampilan Anda dengan kursus terkini</p>
               <p className="mt-10 font-bold text-3xl lg:text-4xl xl:text-3xl">Kursus terkini dengan grafik menarik untuk memulai dasar-dasar Anda dan mempercepat keterampilan keras Anda</p>
               <button type="button" className="mt-20 mx-20 text-black bg-gold hover:text-black hover:bg-white focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-md text-lg px-6 py-3">
-                <a href="/login">Daftar Sekarang</a>
+                <Link to="/service/hardskill/enroll">Daftar Sekarang</Link>
               </button>
             </div>
           </div>
@@ -96,7 +93,6 @@ export const HardSkill = () => {
           </div>
           <div className="lg:col-span-3 xl:col-span-3 text-center text-white mt-40">
             <h1 className="font-bold text-xl mt-2">Mentor</h1>
-            <div className=" grid grid-cols-4 gap-8 justify-items-center mt-12"></div>
             <CardSlider cardData={cardData} />
           </div>
         </div>

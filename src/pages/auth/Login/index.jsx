@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export const Login = () => {
   return (
     <>
@@ -50,9 +52,9 @@ export const Login = () => {
                 </button>
                 <div className="text-sm font-medium text-gray-900">
                   {`Don't have account? `}
-                  <a className="text-primary hover:underline" href="/signup">
+                  <Link to="/Register" className="text-primary hover:underline">
                     Sign up your account
-                  </a>
+                  </Link>
                 </div>
               </form>
             </div>

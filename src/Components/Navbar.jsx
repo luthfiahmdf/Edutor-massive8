@@ -55,7 +55,7 @@ const Navbar = () => {
                 {isDropdownOpen && (
                   <div ref={dropdownRef} className="absolute bg-black text-white mt-2 p-0 rounded-md border border-gray-700 shadow-xl">
                     {/* Dropdown Content Here */}
-                    <a href="/service/Advice" className="block py-2 px-6 hover:text-gold">
+                    <a href="/services/advice" className="block py-2 px-6 hover:text-gold">
                       <span className="inline-block ml-2 whitespace-nowrap">Advices</span>
                     </a>
                     <hr className="border-t border-gray-600" />
