@@ -1,3 +1,3 @@
 export const Register = () => {
-  return <div>ini Register</div>;
+  return <div>ini About</div>;
 };

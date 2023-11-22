@@ -4,12 +4,12 @@ import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
 export default function FooterComponent() {
   return (
     <>
-      <footer className="bg-black">
+      <footer className="bg-gray-700">
         <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
-            <a href="#" className="grid grid-cols-1 gap-2 flex items-center mb-4 sm:mb-1">
-              <img src="public/image/logoedu.png" alt="edutorlogo" />
-              <img src="public/image/sponsored.png" width={250} alt="edutorlogo" />
+            <a href="#" className="\gap-2 flex items-center mb-4 sm:mb-1">
+              <img src="/public/image/logoedu.png" alt="edutorlogo" />
+              <img src="/public/image/sponsored.png" width={250} alt="edutorlogo" />
 
               <span className="self-center text-2xl font-semibold whitespace-nowrap text-white"></span>
             </a>
