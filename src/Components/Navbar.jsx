@@ -34,7 +34,7 @@ const Navbar = () => {
                 type="button"
                 className="py-2 px-4 mr-2 text-sm font-medium text-gray-600 focus:outline-none bg-white rounded-lg border hover:bg-gold hover:text-black focus:ring-4 focus:ring-gray-200"
               >
-                Daftar
+                Sign Up
               </button>
             </a>
             <a href="/login">
@@ -42,7 +42,7 @@ const Navbar = () => {
                 type="button"
                 className="py-2 px-4 mr-2 text-sm font-medium text-white focus:outline-none bg-primary rounded-lg border border-primary hover:bg-gold hover:text-black focus:ring-4 focus:ring-gray-200"
               >
-                Masuk
+                Log In
               </button>
             </a>
           </div>
@@ -56,7 +56,7 @@ const Navbar = () => {
                   href="/Home"
                   className="block py-2 pl-3 pr-4 text-gray-300 rounded hover:text-gold hover:bg-transparent md:p-0"
                 >
-                  Beranda
+                  Home
                 </a>
               </li>
               <li className="relative group">
@@ -64,7 +64,7 @@ const Navbar = () => {
                   onClick={toggleDropdown}
                   className="flex items-center focus:outline-none text-gray-300 hover:text-gold"
                 >
-                  <span className="mr-1">Layanan</span>
+                  <span className="mr-1">Service</span>
                   <span
                     className={`ml-1 ${
                       isDropdownOpen ? "rotate-180" : "rotate-0"
@@ -114,7 +114,7 @@ const Navbar = () => {
                   href="/About"
                   className="block py-2 pl-3 pr-4 text-gray-300 rounded hover:text-gold hover:bg-transparent md:p-0"
                 >
-                  Tentang Kami
+                  About Us
                 </a>
               </li>
             </ul>

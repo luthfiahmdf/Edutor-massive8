@@ -58,17 +58,17 @@ export const HardSkill = () => {
 
           <div className="lg:col-span-3 xl:col-span-1">
             <div className="text-white text-start text-lg lg:text-xl xl:text-3xl gap-2 col-auto">
-              <h1 className="text-3xl font-bold text-gold">HARDSKILL</h1>
-              <p className="mt-10 font-bold text-3xl lg:text-4xl xl:text-6xl">Kembangkan keterampilan Anda dengan kursus terkini</p>
-              <p className="mt-10 font-bold text-3xl lg:text-4xl xl:text-3xl">Kursus terkini dengan grafik menarik untuk memulai dasar-dasar Anda dan mempercepat keterampilan keras Anda</p>
-              <button type="button" className="mt-20 mx-20 text-black bg-gold hover:text-black hover:bg-white focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-md text-lg px-6 py-3">
-                <Link to="/service/hardskill/enroll">Daftar Sekarang</Link>
-              </button>
+              <h1 className="text-3xl font-bold text-gold">Hard Skills</h1>
+              <p className="mt-10 font-bold text-3xl lg:text-4xl xl:text-6xl">Grow your skills with up to date courses</p>
+              <p className="mt-10 text-3xl lg:text-4xl xl:text-3xl">Up to date courses with interesting graphics to kickstart your fundamentals and accelerate your hard skills</p>
+              <button type="button" className="mt-8 text-white border border-white font-['inika'] block hover:text-gold focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-md text-lg px-6 py-3 self-start">
+    <Link to="/service/hardskill/enroll">Enroll Now</Link>
+  </button>
             </div>
           </div>
-          <div className="lg:col-span-3 xl:col-span-3 text-center text-white mt-40">
+          <div className="lg:col-span-3 xl:col-span-3 text-center text-white mt-16">
             <div className="">
-              <h1 className="font-bold text-xl">Kenapa Memilih Edutor?</h1>
+              <h1 className="font-bold text-3xl">Why Choose Edutor?</h1>
             </div>
           </div>
 
@@ -81,9 +81,9 @@ export const HardSkill = () => {
               <img src="/public/image/banner2.png" className="rounded-md" alt="" />
             </div>
           </div>
-          <div className="lg:col-span-3 xl:col-span-3 text-center text-white mt-40">
+          <div className="lg:col-span-3 xl:col-span-3 text-center text-white mt-16">
             <div className="">
-              <h1 className="font-bold text-xl mt-2">Carrer Path</h1>
+              <h1 className="font-bold text-3xl mt-2">Carrer Path</h1>
               <div className="grid grid-cols-4 gap-8 justify-items-center mt-12">
                 {cardData.map((card, index) => (
                   <Card key={index} title={card.title} imageUrl={card.imageUrl} linkHref={card.linkHref} />
@@ -91,8 +91,8 @@ export const HardSkill = () => {
               </div>
             </div>
           </div>
-          <div className="lg:col-span-3 xl:col-span-3 text-center text-white mt-40">
-            <h1 className="font-bold text-xl mt-2">Mentor</h1>
+          <div className="lg:col-span-3 xl:col-span-3 text-center text-white mt-16">
+            <h1 className="font-bold text-3xl mt-2">Mentor</h1>
             <CardSlider cardData={cardData} />
           </div>
         </div>
