@@ -27,13 +27,14 @@ export const Leadership = () => {
             </h1>
             <br />
             <h2 className="text-1xl font-bold">About</h2>
+            <br />
             <h2 className="text-1xl">Sometimes it is challenging to lead within a group of seniors or</h2>
             <h2 className="text-1xl">older people. In this course, Hans Leon will teach you how to </h2>
             <h2 className="text-1xl">develop strong leadership and how to manage seniority issues in </h2>
             <h2 className="text-1xl">gatherings. </h2>
           </div>
           <div className="w-1/2">
-            <img src="public/image/page3.png" alt="Leadership Image" className="w-full h-auto" />
+            <img src="/public/image/page3.png" alt="Leadership Image" className="w-full h-auto" />
           </div>
         </div>
       </div>
@@ -125,7 +126,7 @@ export const Leadership = () => {
           <div className="grid gap-8 justify-items-center mt-16">
             {/* Team Member 1 */}
             <div className="flex items-center py-1 px-15">
-              <img src="public/image/ment1.png" alt="Team Member 1" className="rounded-full w-40 h-40 object-cover mb-10 ml-20" />
+              <img src="/public/image/ment1.png" alt="Team Member 1" className="rounded-full w-40 h-40 object-cover mb-10 ml-20" />
               <div className="ml-4 p-5">
                 <h3 className="text-xl pl-20 font-bold text-gold">John Doe</h3>
                 <br />
@@ -152,7 +153,7 @@ export const Leadership = () => {
           <div className="grid grid-cols-4 gap-8 justify-items-center mt-16">
             {/* Team Member 1 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="public/image/page32.png" alt="Team Member 1" className="w-full h-full object-contain" />
+              <img src="/public/image/banner2.png" alt="Team Member 1" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
@@ -163,7 +164,7 @@ export const Leadership = () => {
 
             {/* Team Member 2 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="public/image/page32.png" alt="Team Member 2" className="w-full h-full object-contain" />
+              <img src="/public/image/banner2.png" alt="Team Member 2" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
@@ -174,7 +175,7 @@ export const Leadership = () => {
 
             {/* Team Member 3 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="public/image/page32.png" alt="Team Member 3" className="w-full h-full object-contain" />
+              <img src="/public/image/banner2.png" alt="Team Member 3" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
@@ -185,7 +186,7 @@ export const Leadership = () => {
 
             {/* Team Member 4 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="public/image/page32.png" alt="Team Member 4" className="w-full h-full object-contain" />
+              <img src="/public/image/banner2.png" alt="Team Member 4" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
@@ -195,7 +196,7 @@ export const Leadership = () => {
             </a>
           </div>
           <div className="mt-10 text-white text-left">
-            <a href="#" className="inline-block bg-black border border-white font-semibold text-white py-2 px-8 rounded hover:text-gold w-auto">
+            <a href="#" className="inline-block bg-black border border-white font-semibold text-white py-2 px-8 rounded hover:text-gold w-auto mb-16">
               Back
             </a>
           </div>

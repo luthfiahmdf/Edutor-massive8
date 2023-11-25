@@ -51,7 +51,7 @@ export const HardSkill = () => {
   return (
     <div className="bg-black min-h-screen shadow-md ">
       <Navbar />
-      <div className="container mx-auto my-10">
+      <div className="container mx-auto my-10 mt-16">
       <div className="grid max-w-screen-xl mx-auto gap-8 lg:grid-cols-2 xl:grid-cols-2">
   <div className="lg:col-span-1 xl:col-span-1 mt-16">
     <img src="/public/image/banner1.png" alt="edutorlogo" className="rounded-md" />
@@ -62,6 +62,7 @@ export const HardSkill = () => {
       <h1 className="text-3xl font-bold text-gold">Hard Skills</h1>
       <p className="mt-10 text-4xl font-bold lg:text-4xl xl:text-6xl">Grow your skills with up to date courses</p>
       <p className="mt-10 text-lg lg:text-xl xl:text-2xl">Up to date courses with interesting graphics to kickstart your fundamentals and accelerate your hard skills</p>
+      <br />
       <button type="button" className="mt-8 text-white border border-white font-['inika'] block hover:text-gold focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-md text-lg px-6 py-3 self-start">
         <Link to="/service/hardskill/enroll">Enroll Now</Link>
       </button>
@@ -93,7 +94,8 @@ export const HardSkill = () => {
             </div>
           </div>
           <div className="lg:col-span-3 xl:col-span-3 text-center text-white mt-16">
-            <h1 className="font-bold text-3xl mt-2">Mentor</h1>
+            <h1 className="font-bold text-3xl">Mentor</h1>
+            <br /><br />
             <CardSlider cardData={cardData} />
           </div>
         </div>

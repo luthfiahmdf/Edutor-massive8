@@ -6,15 +6,16 @@ export const Advice = () => {
     <main className="bg-black min-h-screen flex flex-col items-center justify-center">
       <Navbar />
       <div className="container max-w-5xl mx-auto grid grid-cols-2 py-24">
-        <div className="col-span-1">
-          <h1 className="font-bold text-4xl pb-5 font-['inika'] text-yellow-500">Advice</h1>
-          <br />
+        <div className="col-span-1 mt-16">
+          <h1 className="font-bold text-3xl pb-5 font-['inika'] text-yellow-500">Advice</h1>
+          <br /><br />
           <h1 className="font-bold text-4xl pb-5 font-['inika'] text-white">Providing the newest advice for you</h1>
-          <div className="font-normal text-1xl pb-9 font-['inika'] text-white">Up to date articles with interesting graphics to kickstart and accelerate your career</div>
+          <br />
+          <div className="font-bold text-1xl pb-9 font-['inika'] text-white">Up to date articles with interesting graphics to kickstart and accelerate your career</div>
         </div>
-        <div className="col-span-1 flex justify-center">
-          <img className="max-w-full h-auto bg-white rounded-xl" src="public/image/image_26.png" alt="" />
-        </div>
+        <div className="col-span-1 flex justify-center mt-10">
+  <img className="max-w-md h-auto rounded-xl" src="/public/image/image_26.png" alt="" />
+</div>
       </div>
 
       <div className="w-3/4">
@@ -24,7 +25,7 @@ export const Advice = () => {
             <Accordion.Content>
               <div className="flex">
                 <div className="bg-white max-w-xs rounded overflow-hidden shadow-lg m-4">
-                  <img className="w-full" src="public/image/image_28.png" alt="" />
+                  <img className="w-full" src="/public/image/image_28.png" alt="" />
                   <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2 font-['inika']">Learn how to make curriculum vitae</div>
                     <p className="text-gray-700 text-base font-['inika']">
@@ -37,7 +38,7 @@ export const Advice = () => {
                 </div>
 
                 <div className="bg-white max-w-xs rounded overflow-hidden shadow-lg m-4">
-                  <img className="w-full" src="public/image/image_29.png" alt="" />
+                  <img className="w-full" src="/public/image/image_29.png" alt="" />
                   <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2 font-['inika']">Communication skill used on works</div>
                     <p className="text-gray-700 text-base font-['inika']">
@@ -50,7 +51,7 @@ export const Advice = () => {
                 </div>
 
                 <div className="bg-white max-w-xs rounded overflow-hidden shadow-lg m-4">
-                  <img className="w-full" src="public/image/image_30.png" alt="" />
+                  <img className="w-full" src="/public/image/image_30.png" alt="" />
                   <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2 font-['inika']">How to Write a Must-Open Cold Email</div>
                     <p className="text-gray-700 text-base font-['inika']">
@@ -69,7 +70,7 @@ export const Advice = () => {
             <Accordion.Content>
               <div className="flex">
                 <div className="bg-white max-w-xs rounded overflow-hidden shadow-lg m-4">
-                  <img className="w-full" src="public/image/image_31.png" alt="" />
+                  <img className="w-full" src="/public/image/image_31.png" alt="" />
                   <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2 font-['inika']">Learn how to prepare informational interview</div>
                     <p className="text-gray-700 text-base font-['inika']">Imagine having direct access to industry insiders who can provide you with exclusive knowledge, valuable advice, and potential job opportunities.....</p>
@@ -80,7 +81,7 @@ export const Advice = () => {
                 </div>
 
                 <div className="bg-white max-w-xs rounded overflow-hidden shadow-lg m-4">
-                  <img className="w-full" src="public/image/image_32.png" alt="" />
+                  <img className="w-full" src="/public/image/image_32.png" alt="" />
                   <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2 font-['inika']">How to work with a recruiter to find a job</div>
                     <p className="text-gray-700 text-base font-['inika']">Are you tired of submitting countless job applications and never hearing back? Discover the power of informational interviews - a proven strategy that can....</p>
@@ -91,7 +92,7 @@ export const Advice = () => {
                 </div>
 
                 <div className="bg-white max-w-xs rounded overflow-hidden shadow-lg m-4">
-                  <img className="w-full" src="public/image/image_33.png" alt="" />
+                  <img className="w-full" src="/public/image/image_33.png" alt="" />
                   <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2 font-['inika']">How to Find a Job: Our 8 Best Hacks to Job Searching</div>
                     <p className="text-gray-700 text-base font-['inika']">Don't waste another minute scrolling through job boards aimlessly. Get our exclusive guide to unlock the secrets to a successful job search today!</p>
@@ -108,7 +109,7 @@ export const Advice = () => {
             <Accordion.Content>
               <div className="flex">
                 <div className="bg-white max-w-xs rounded overflow-hidden shadow-lg m-4">
-                  <img className="w-full" src="public/image/image_34.png" alt="" />
+                  <img className="w-full" src="/public/image/image_34.png" alt="" />
                   <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2 font-['inika']">Ways for you to study efficiently</div>
                     <p className="text-gray-700 text-base font-['inika']">
@@ -121,7 +122,7 @@ export const Advice = () => {
                 </div>
 
                 <div className="bg-white max-w-xs rounded overflow-hidden shadow-lg m-4">
-                  <img className="w-full" src="public/image/image_35.png" alt="" />
+                  <img className="w-full" src="/public/image/image_35.png" alt="" />
                   <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2 font-['inika']">Ways for you to study efficiently</div>
                     <p className="text-gray-700 text-base font-['inika']">
@@ -134,7 +135,7 @@ export const Advice = () => {
                 </div>
 
                 <div className="bg-white max-w-xs rounded overflow-hidden shadow-lg m-4">
-                  <img className="w-full" src="public/image/image_36.png" alt="" />
+                  <img className="w-full" src="/public/image/image_36.png" alt="" />
                   <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2 font-['inika']">Ways for you to study efficiently</div>
                     <p className="text-gray-700 text-base font-['inika']">

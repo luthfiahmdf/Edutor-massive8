@@ -41,7 +41,7 @@ export const Popular = () => {
           <div className="grid grid-cols-4 gap-8 justify-items-center mt-16">
             {/* Team Member 1 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="public/image/page32.png" alt="Team Member 1" className="w-full h-full object-contain" />
+              <img src="/public/image/banner2.png" alt="Team Member 1" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
@@ -52,7 +52,7 @@ export const Popular = () => {
 
             {/* Team Member 2 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="public/image/page32.png" alt="Team Member 2" className="w-full h-full object-contain" />
+              <img src="/public/image/banner2.png" alt="Team Member 2" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
@@ -63,7 +63,7 @@ export const Popular = () => {
 
             {/* Team Member 3 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="public/image/page32.png" alt="Team Member 3" className="w-full h-full object-contain" />
+              <img src="/public/image/banner2.png" alt="Team Member 3" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
@@ -74,7 +74,7 @@ export const Popular = () => {
 
             {/* Team Member 4 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="public/image/page32.png" alt="Team Member 4" className="w-full h-full object-contain" />
+              <img src="/public/image/banner2.png" alt="Team Member 4" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
@@ -85,7 +85,7 @@ export const Popular = () => {
 
             {/* Team Member 5 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="public/image/page32.png" alt="Team Member 5" className="w-full h-full object-contain" />
+              <img src="/public/image/banner2.png" alt="Team Member 5" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
@@ -96,7 +96,7 @@ export const Popular = () => {
 
             {/* Team Member 6 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="public/image/page32.png" alt="Team Member 6" className="w-full h-full object-contain" />
+              <img src="/public/image/banner2.png" alt="Team Member 6" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
@@ -107,7 +107,7 @@ export const Popular = () => {
 
             {/* Team Member 7 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="public/image/page32.png" alt="Team Member 7" className="w-full h-full object-contain" />
+              <img src="/public/image/banner2.png" alt="Team Member 7" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
@@ -118,7 +118,7 @@ export const Popular = () => {
 
             {/* Team Member 8 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="public/image/page32.png" alt="Team Member 8" className="w-full h-full object-contain" />
+              <img src="/public/image/banner2.png" alt="Team Member 8" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
@@ -129,7 +129,7 @@ export const Popular = () => {
 
             {/* Team Member 9 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="public/image/page32.png" alt="Team Member 9" className="w-full h-full object-contain" />
+              <img src="/public/image/banner2.png" alt="Team Member 9" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
@@ -140,7 +140,7 @@ export const Popular = () => {
 
             {/* Team Member 10 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="public/image/page32.png" alt="Team Member 10" className="w-full h-full object-contain" />
+              <img src="/public/image/banner2.png" alt="Team Member 10" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
@@ -151,7 +151,7 @@ export const Popular = () => {
 
             {/* Team Member 11 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="public/image/page32.png" alt="Team Member 11" className="w-full h-full object-contain" />
+              <img src="/public/image/banner2.png" alt="Team Member 11" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
@@ -162,7 +162,7 @@ export const Popular = () => {
 
             {/* Team Member 12 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="public/image/page32.png" alt="Team Member 12" className="w-full h-full object-contain" />
+              <img src="/public/image/banner2.png" alt="Team Member 12" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>

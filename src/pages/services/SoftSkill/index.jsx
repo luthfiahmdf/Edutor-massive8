@@ -31,7 +31,7 @@ export const SoftSkill = () => {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
             <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Why learn Soft Skills?</p>
-            <p className="mt-6 text-lg leading-8 text-white">Developing soft skills are essential for the growth and longevity of an individual, both in professional and personal contexts. Soft skills provide as following:</p>
+            <p className="mt-6 text-xm leading-8 text-white">Developing soft skills are essential for the growth and longevity of an individual, both in professional and personal contexts. Soft skills provide as following:</p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-5xl">
             <dl className="grid max-w-xl grid-cols-3 gap-x-8 gap-y-10 lg:max-w-none lg:gap-y-16">
@@ -166,7 +166,7 @@ export const SoftSkill = () => {
               <div className="grid grid-cols-3 gap-8 justify-items-center mt-16">
                 {/* Team Member 1 */}
                 <div className="flex items-center border border-white py-1 px-15">
-                  <img src="public/image/ment1.png" alt="Team Member 1" className="rounded-full w-25 h-20 object-cover mb-4 ml-2" />
+                  <img src="/public/image/ment1.png" alt="Team Member 1" className="rounded-full w-25 h-20 object-cover mb-4 ml-2" />
                   <div className="ml-4 p-5">
                     <h3 className="text-xl font-bold text-white">John Doe</h3>
                     <p className="text-sm text-white">BackEnd Developer</p>
@@ -183,7 +183,7 @@ export const SoftSkill = () => {
 
                 {/* Team Member 2 */}
                 <div className="flex items-center border border-white py-1 px-15">
-                  <img src="public/image/ment2.jpg" alt="Team Member 2" className="rounded-full w-25 h-20 object-cover mb-4 ml-2" />
+                  <img src="/public/image/ment2.jpg" alt="Team Member 2" className="rounded-full w-25 h-20 object-cover mb-4 ml-2" />
                   <div className="ml-4 p-5">
                     <h3 className="text-xl font-bold text-white">Jenny Smith</h3>
                     <p className="text-sm text-white">Web Developer</p>
@@ -200,7 +200,7 @@ export const SoftSkill = () => {
 
                 {/* Team Member 3 */}
                 <div className="flex items-center border border-white py-1 px-15">
-                  <img src="public/image/ment3.jpg" alt="Team Member 3" className="rounded-full w-25 h-20 object-cover mb-4 ml-2" />
+                  <img src="/public/image/ment3.jpg" alt="Team Member 3" className="rounded-full w-25 h-20 object-cover mb-4 ml-2" />
                   <div className="ml-4 p-5">
                     <h3 className="text-xl font-bold text-white">Alex Johnson</h3>
                     <p className="text-sm text-white">UI/UX Design</p>
@@ -217,7 +217,7 @@ export const SoftSkill = () => {
 
                 {/* Team Member 4 */}
                 <div className="flex items-center border border-white py-1 px-15">
-                  <img src="public/image/ment4.jpg" alt="Team Member 4" className="rounded-full w-25 h-20 object-cover mb-4 ml-2" />
+                  <img src="/public/image/ment4.jpg" alt="Team Member 4" className="rounded-full w-25 h-20 object-cover mb-4 ml-2" />
                   <div className="ml-4 p-5">
                     <h3 className="text-xl font-bold text-white">Hans Duarto</h3>
                     <p className="text-sm text-white">FrontEnd Developer</p>
@@ -234,7 +234,7 @@ export const SoftSkill = () => {
 
                 {/* Team Member 5 */}
                 <div className="flex items-center border border-white py-1 px-15">
-                  <img src="public/image/ment5.jpg" alt="Team Member 5" className="rounded-full w-25 h-20 object-cover mb-4 ml-2" />
+                  <img src="/public/image/ment5.jpg" alt="Team Member 5" className="rounded-full w-25 h-20 object-cover mb-4 ml-2" />
                   <div className="ml-4 p-5">
                     <h3 className="text-xl font-bold text-white">Joe Mario</h3>
                     <p className="text-sm text-white">Game Developer</p>
@@ -251,7 +251,7 @@ export const SoftSkill = () => {
 
                 {/* Team Member 6 */}
                 <div className="flex items-center border border-white py-1 px-15">
-                  <img src="public/image/ment6.jpg" alt="Team Member 6" className="rounded-full w-25 h-20 object-cover mb-4 ml-2" />
+                  <img src="/public/image/ment6.jpg" alt="Team Member 6" className="rounded-full w-25 h-20 object-cover mb-4 ml-2" />
                   <div className="ml-4 p-5">
                     <h3 className="text-xl font-bold text-white">Jesslyn Leon</h3>
                     <p className="text-sm text-white">Mobile Developer</p>
