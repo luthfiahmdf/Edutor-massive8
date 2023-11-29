@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Accordion } from 'flowbite-react';
 import Navbar from '../../../Components/Navbar';
 
@@ -8,14 +9,15 @@ export const Advice = () => {
       <div className="container max-w-5xl mx-auto grid grid-cols-2 py-24">
         <div className="col-span-1 mt-16">
           <h1 className="font-bold text-3xl pb-5 font-['inika'] text-yellow-500">Advice</h1>
-          <br /><br />
+          <br />
+          <br />
           <h1 className="font-bold text-4xl pb-5 font-['inika'] text-white">Providing the newest advice for you</h1>
           <br />
           <div className="font-bold text-1xl pb-9 font-['inika'] text-white">Up to date articles with interesting graphics to kickstart and accelerate your career</div>
         </div>
         <div className="col-span-1 flex justify-center mt-10">
-  <img className="max-w-md h-auto rounded-xl" src="/public/image/image_26.png" alt="" />
-</div>
+          <img className="max-w-md h-auto rounded-xl" src="/public/image/image_26.png" alt="" />
+        </div>
       </div>
 
       <div className="w-3/4">

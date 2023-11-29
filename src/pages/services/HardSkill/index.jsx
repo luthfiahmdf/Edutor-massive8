@@ -9,37 +9,37 @@ const cardData = [
   {
     title: 'FrontEnd Developer',
     imageUrl: '/public/image/card1.png',
-    linkHref: '/path/to/page1',
+    linkHref: '/services/hardskill/careerpath',
   },
   {
     title: 'BackEnd Developer',
     imageUrl: '/public/image/card2.png',
-    linkHref: '/path/to/page2',
+    linkHref: '/services/hardskill/careerpath',
   },
   {
     title: 'IOS Developer',
     imageUrl: '/public/image/card3.png',
-    linkHref: '/path/to/page2',
+    linkHref: '/services/hardskill/careerpath',
   },
   {
     title: 'Android Developer',
     imageUrl: '/public/image/card4.png',
-    linkHref: '/path/to/page3',
+    linkHref: '/services/hardskill/careerpath',
   },
   {
     title: 'Data Scients',
     imageUrl: '/public/image/card5.png',
-    linkHref: '/path/to/page2',
+    linkHref: '/services/hardskill/careerpath',
   },
   {
     title: 'Data Enginer',
     imageUrl: '/public/image/card6.png',
-    linkHref: '/path/to/page2',
+    linkHref: '/services/hardskill/careerpath',
   },
   {
     title: 'Data Analist',
     imageUrl: '/public/image/card7.png',
-    linkHref: '/path/to/page2',
+    linkHref: '/services/hardskill/careerpath',
   },
   {
     title: 'UI/UX',
@@ -51,25 +51,24 @@ export const HardSkill = () => {
   return (
     <div className="bg-black min-h-screen shadow-md ">
       <Navbar />
-      <div className="container mx-auto my-10 mt-16">
-      <div className="grid max-w-screen-xl mx-auto gap-8 lg:grid-cols-2 xl:grid-cols-2">
-  <div className="lg:col-span-1 xl:col-span-1 mt-16">
-    <img src="/public/image/banner1.png" alt="edutorlogo" className="rounded-md" />
-  </div>
+      <div className="container mx-auto my-10 mt-20">
+        <div className="grid max-w-screen-xl mx-auto gap-8 lg:grid-cols-2 xl:grid-cols-2">
+          <div className="lg:col-span-1 xl:col-span-1 mt-20">
+            <img src="/public/image/banner1.png" alt="edutorlogo" className="rounded-md" />
+          </div>
 
-  <div className="lg:col-span-1 xl:col-span-1">
-    <div className="text-white text-start text-lg lg:text-xl xl:text-3xl gap-2 col-auto mt-16">
-      <h1 className="text-3xl font-bold text-gold">Hard Skills</h1>
-      <p className="mt-10 text-4xl font-bold lg:text-4xl xl:text-6xl">Grow your skills with up to date courses</p>
-      <p className="mt-10 text-lg lg:text-xl xl:text-2xl">Up to date courses with interesting graphics to kickstart your fundamentals and accelerate your hard skills</p>
-      <br />
-      <button type="button" className="mt-8 text-white border border-white font-['inika'] block hover:text-gold focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-md text-lg px-6 py-3 self-start">
-        <Link to="/service/hardskill/enroll">Enroll Now</Link>
-      </button>
-    </div>
-  </div>
-          <div className="lg:col-span-3 xl:col-span-3 text-center text-white mt-16">
-            <div className="">
+          <div className="text-white text-start text-lg lg:text-xl xl:text-3xl gap-2 col-auto mt-40">
+            <h1 className="text-3xl font-bold text-gold">Hard Skills</h1>
+            <p className="mt-10 text-4xl font-bold lg:text-4xl xl:text-6xl">Grow your skills with up to date courses</p>
+            <p className="mt-10 text-lg lg:text-xl xl:text-2xl">Up to date courses with interesting graphics to kickstart your fundamentals and accelerate your hard skills</p>
+
+            <button type="button" className="mt-20 text-white border border-white  hover:text-black  hover:bg-gold  focus:ring-white font-medium rounded-md text-lg px-6 py-3 self-start">
+              <Link to="/service/hardskill/careerpath2">Enroll Now</Link>
+            </button>
+          </div>
+
+          <div className="lg:col-span-3 xl:col-span-3 text-center text-white mt-40">
+            <div className="mb-6">
               <h1 className="font-bold text-3xl">Why Choose Edutor?</h1>
             </div>
           </div>
@@ -84,19 +83,18 @@ export const HardSkill = () => {
             </div>
           </div>
           <div className="lg:col-span-3 xl:col-span-3 text-center text-white mt-16">
-            <div className="">
-              <h1 className="font-bold text-3xl mt-2">Carrer Path</h1>
-              <div className="grid grid-cols-4 gap-8 justify-items-center mt-12">
-                {cardData.map((card, index) => (
-                  <Card key={index} title={card.title} imageUrl={card.imageUrl} linkHref={card.linkHref} />
-                ))}
-              </div>
+            <h1 className="font-bold text-3xl mt-7">Carrer Path</h1>
+            <div className="grid grid-cols-4 gap-8 justify-items-center mt-12">
+              {cardData.map((card, index) => (
+                <Card key={index} title={card.title} imageUrl={card.imageUrl} linkHref={card.linkHref} />
+              ))}
             </div>
           </div>
           <div className="lg:col-span-3 xl:col-span-3 text-center text-white mt-16">
             <h1 className="font-bold text-3xl">Mentor</h1>
-            <br /><br />
-            <CardSlider cardData={cardData} />
+            <div className="mt-12 mb-40">
+              <CardSlider cardData={cardData} />
+            </div>
           </div>
         </div>
       </div>

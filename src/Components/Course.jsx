@@ -1,16 +1,8 @@
-import PropTypes from "prop-types";
-import { FaStar } from "react-icons/fa";
-import { FaStarHalfAlt } from "react-icons/fa";
-export const Course = ({
-  image,
-  title,
-  description,
-  rating,
-  mentor,
-  time,
-  video,
-  id,
-}) => {
+import PropTypes from 'prop-types';
+import { FaStar } from 'react-icons/fa';
+import { FaStarHalfAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+export const Course = ({ image, title, description, rating, mentor, time, video, id }) => {
   const isDecimal = (number) => {
     return number % 1 !== 0;
   };
@@ -50,8 +42,10 @@ export const Course = ({
                 </p>
               </div>
               <div className="">
-                <button className="border-2 border-slate-50 rounded-sm py-2 px-4">
-                  See Class
+                <button>
+                  <Link to="/service/hardskill/careerpath2" className="border border-white font-semibold text-white py-2 px-4 rounded block hover:text-gold w-25">
+                    See Class
+                  </Link>
                 </button>
               </div>
             </div>
@@ -71,8 +65,10 @@ export const Course = ({
                 </p>
               </div>
               <div className="">
-                <button className="border-2 border-slate-50 rounded-sm py-2 px-4">
-                  See Class
+                <button>
+                  <Link to="/service/hardskill/careerpath2" className="border border-white font-semibold text-white py-2 px-4 rounded block hover:text-gold w-25">
+                    See Class
+                  </Link>
                 </button>
               </div>
             </div>

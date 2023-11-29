@@ -16,6 +16,7 @@ export const Leadership = () => {
 
   return (
     <>
+      <Navbar />
       <div style={divStyle}>
         <div className="container mx-auto mt-16 flex justify-between items-center">
           <div className="w-1/2">
@@ -34,14 +35,13 @@ export const Leadership = () => {
             <h2 className="text-1xl">gatherings. </h2>
           </div>
           <div className="w-1/2">
-            <img src="/public/image/page3.png" alt="Leadership Image" className="w-full h-auto" />
+            <img src="/" alt="Leadership Image" className="w-full h-auto" />
           </div>
         </div>
       </div>
 
       {/*new section */}
       <div className="bg-black py-24 sm:py-12">
-        <Navbar />
         <div className="container mx-auto mt-16 grid grid-cols-2 gap-16 relative">
           <div className="bg-black border border-white font-semibold text-white py-4 px-8 rounded">
             {/* Content for the first box */}

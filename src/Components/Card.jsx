@@ -1,6 +1,8 @@
+import PropTypes from 'prop-types';
+
 const Card = ({ imageUrl, linkHref, title }) => {
   return (
-    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 overflow-hidden transform transition-transform duration-300 hover:scale-105">
       <a href={linkHref} target="_blank" rel="noopener noreferrer">
         <img className="rounded-t-lg" src={imageUrl} alt="" />
       </a>
@@ -11,6 +13,12 @@ const Card = ({ imageUrl, linkHref, title }) => {
       </div>
     </div>
   );
+};
+
+Card.propTypes = {
+  imageUrl: PropTypes.string.isRequired,
+  linkHref: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
 };
 
 export default Card;
