@@ -1,9 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
+import { Link } from 'react-router-dom';
 import { Accordion } from 'flowbite-react';
 import Navbar from '../../../Components/Navbar';
+import FooterComponent from '../../../Components/Footer';
 
 export const Advice = () => {
   return (
+    <>
     <main className="bg-black min-h-screen flex flex-col items-center justify-center">
       <Navbar />
       <div className="container max-w-5xl mx-auto grid grid-cols-2 py-24">
@@ -33,9 +36,9 @@ export const Advice = () => {
                     <p className="text-gray-700 text-base font-['inika']">
                       Discover the secret to crafting a winning curriculum vitae that stands out from the competition. Our comprehensive curriculum vitae writing course is designed to teach you the essential....
                     </p>
-                    <a href="https://flowbite.com/figma/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                      Read More
-                    </a>
+                    <Link to="/service/advice/article" className="text-cyan-600 hover:underline dark:text-cyan-500">
+                    Read More
+                    </Link>
                   </div>
                 </div>
 
@@ -46,9 +49,9 @@ export const Advice = () => {
                     <p className="text-gray-700 text-base font-['inika']">
                       Whether you're a professional, freelancer, or entrepreneur, strong communication skills are the key to success. Imagine being able to convey your ideas with confidence, persuade....
                     </p>
-                    <a href="https://flowbite.com/figma/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                      Read More
-                    </a>
+                    <Link to="/service/advice/article" className="text-cyan-600 hover:underline dark:text-cyan-500">
+                    Read More
+                    </Link>
                   </div>
                 </div>
 
@@ -59,9 +62,9 @@ export const Advice = () => {
                     <p className="text-gray-700 text-base font-['inika']">
                       In the fast-paced world of digital communication, the art of crafting a compelling cold email has become a valuable skill. Whether you're reaching out to potential clients, collaborators, or employers......
                     </p>
-                    <a href="https://flowbite.com/figma/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                      Read More
-                    </a>
+                    <Link to="/service/advice/article" className="text-cyan-600 hover:underline dark:text-cyan-500">
+                    Read More
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -76,9 +79,9 @@ export const Advice = () => {
                   <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2 font-['inika']">Learn how to prepare informational interview</div>
                     <p className="text-gray-700 text-base font-['inika']">Imagine having direct access to industry insiders who can provide you with exclusive knowledge, valuable advice, and potential job opportunities.....</p>
-                    <a href="https://flowbite.com/figma/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                      Read More
-                    </a>
+                    <Link to="/service/advice/article" className="text-cyan-600 hover:underline dark:text-cyan-500">
+                    Read More
+                    </Link>
                   </div>
                 </div>
 
@@ -87,9 +90,9 @@ export const Advice = () => {
                   <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2 font-['inika']">How to work with a recruiter to find a job</div>
                     <p className="text-gray-700 text-base font-['inika']">Are you tired of submitting countless job applications and never hearing back? Discover the power of informational interviews - a proven strategy that can....</p>
-                    <a href="https://flowbite.com/figma/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                      Read More
-                    </a>
+                    <Link to="/service/advice/article" className="text-cyan-600 hover:underline dark:text-cyan-500">
+                    Read More
+                    </Link>
                   </div>
                 </div>
 
@@ -98,9 +101,9 @@ export const Advice = () => {
                   <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2 font-['inika']">How to Find a Job: Our 8 Best Hacks to Job Searching</div>
                     <p className="text-gray-700 text-base font-['inika']">Don't waste another minute scrolling through job boards aimlessly. Get our exclusive guide to unlock the secrets to a successful job search today!</p>
-                    <a href="https://flowbite.com/figma/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                      Read More
-                    </a>
+                    <Link to="/service/advice/article" className="text-cyan-600 hover:underline dark:text-cyan-500">
+                    Read More
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -117,9 +120,9 @@ export const Advice = () => {
                     <p className="text-gray-700 text-base font-['inika']">
                       Whether you're a professional, freelancer, or entrepreneur, strong communication skills are the key to success. Imagine being able to convey your ideas with confidence, persuade....
                     </p>
-                    <a href="https://flowbite.com/figma/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                      Read More
-                    </a>
+                    <Link to="/service/advice/article" className="text-cyan-600 hover:underline dark:text-cyan-500">
+                    Read More
+                    </Link>
                   </div>
                 </div>
 
@@ -130,9 +133,9 @@ export const Advice = () => {
                     <p className="text-gray-700 text-base font-['inika']">
                       Whether you're a professional, freelancer, or entrepreneur, strong communication skills are the key to success. Imagine being able to convey your ideas with confidence, persuade....
                     </p>
-                    <a href="https://flowbite.com/figma/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                      Read More
-                    </a>
+                    <Link to="/service/advice/article" className="text-cyan-600 hover:underline dark:text-cyan-500">
+                    Read More
+                    </Link>
                   </div>
                 </div>
 
@@ -143,9 +146,9 @@ export const Advice = () => {
                     <p className="text-gray-700 text-base font-['inika']">
                       Whether you're a professional, freelancer, or entrepreneur, strong communication skills are the key to success. Imagine being able to convey your ideas with confidence, persuade....
                     </p>
-                    <a href="https://flowbite.com/figma/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                      Read More
-                    </a>
+                    <Link to="/service/advice/article" className="text-cyan-600 hover:underline dark:text-cyan-500">
+                    Read More
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -176,6 +179,9 @@ export const Advice = () => {
           </div>
         </form>
       </div>
+    
     </main>
+    <FooterComponent />
+    </>
   );
 };

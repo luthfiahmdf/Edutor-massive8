@@ -15,6 +15,7 @@ import { Register } from './pages/auth/Register/index.jsx';
 import { CareerPath } from './pages/services/HardSkill/CareerPath/index.jsx';
 import { CareerPath2 } from './pages/services/HardSkill/CareerPath2/index.jsx';
 import { Enroll } from './pages/services/HardSkill/Enroll/index.jsx';
+import { Article } from './pages/services/Advice/Article/index.jsx';
 
 export const Router = createBrowserRouter([
   {
@@ -73,6 +74,10 @@ export const Router = createBrowserRouter([
   {
     path: '/services/hardskill/careerpath',
     element: <CareerPath />,
+  },
+  {
+    path: '/service/advice/article',
+    element: <Article />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
