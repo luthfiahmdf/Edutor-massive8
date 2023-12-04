@@ -1,66 +1,115 @@
 import { Link } from 'react-router-dom';
+import facebookIcon from '/public/image/facebook-icon.png'; // Path to Facebook icon image
+import googleIcon from '/public/image/google-icon.png'; // Path to Google icon image
+import appleIcon from '/public/image/apple-logo.png';
+
 
 export const Register = () => {
+  const handleSocialMediaLogin = (provider) => {
+    // Handle login with the selected social media provider
+    console.log(`Logging in with ${provider}`);
+  };
+
   return (
-    <>
-      <div className="min-h-screen flex items-center justify-center bg-black">
-        <div className="container py-8 px-4 mx-auto max-w-screen lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
-          <div className="flex flex-col justify-center">
-            <div className="flex flex-row gap-5 items-center">
-              <img src="/public/image/logoedu.png" alt="Logo" />
-              <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Welcome</h1>
-            </div>
-            <p className="mb-6 text-lg font-normal text-white lg:text-xl">Please register your account first</p>
-            <a href="/" className="text-white hover:underline font-medium text-lg inline-flex items-center">
-              Back to Home
-              <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-              </svg>
-            </a>
-          </div>
-          <div>
-            <div className="w-full lg:max-w-xl p-6 space-y-8 sm:p-8 bg-white rounded-lg shadow-xl">
-              <h2 className="text-2xl font-bold text-textColor">Create your Account</h2>
-              <form className="mt-8 space-y-6" action="#">
-                <div>
-                  <label htmlFor="email" className="block mb-2 text-sm font-medium text-textColor">
-                    Your email
-                  </label>
-                  <input type="email" name="email" id="email" className="bg-gray-50 border border-gray-300 text-textColor text-sm rounded-lg-blue-500 block w-full p-2.5" placeholder="name@gmail.com" required />
-                </div>
-                <div>
-                  <label htmlFor="password" className="block mb-2 text-sm font-medium text-textColor">
-                    Your password
-                  </label>
-                  <input type="password" name="password" id="password" placeholder="••••••••" className="bg-gray-50 border border-gray-300 text-textColor text-sm rounded-lg block w-full p-2.5" required />
-                </div>
-                <div className="flex items-start">
-                  <div className="flex items-center h-5">
-                    <input id="remember" aria-describedby="remember" name="remember" type="checkbox" className="w-4 h-4 border-gray-300 rounded bg-gray-50 focus:ring-3" required />
-                  </div>
-                  <div className="ml-3 text-sm">
-                    <label htmlFor="remember" className="font-medium text-gray-500">
-                      Remember this device
-                    </label>
-                  </div>
-                  <a href="#" className="ml-auto text-sm font-medium text-primary hover:underline">
-                    Forgot Password?
-                  </a>
-                </div>
-                <button type="submit" className="w-full px-5 py-3 text-base font-medium text-center bg-primary hover:bg-secondary text-white bg-black rounded-lg focus:ring-4 focus:ring-blue-300 sm:w-auto">
-                  Sign Up your account
-                </button>
-                <div className="text-sm font-medium text-gray-900">
+    <div className="min-h-screen flex items-center justify-center bg-white">
+      <div className="relative z-10 container py-8 px-4 mx-auto max-w-screen lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
+        {/* Left Column - White Background */}
+        <div className="w-full lg:max-w-xl p-6 bg-white space-y-4 sm:p-8 shadow-xl">
+          <div className="w-full lg:max-w-xl p-6 space-y-4 sm:p-8"> {/* Adjusted space-y */}
+            <h2 className="text-4xl font-bold text-blue-950">Register</h2>
+            <div className="text-sm font-medium text-black">
                   Already have account?{' '}
-                  <Link to="/login" className="text-primary hover:underline">
-                    Log in account
+                  <Link to="/login" className="text-primary hover:underline text-blue-400">
+                    Log in 
                   </Link>
                 </div>
-              </form>
-            </div>
+            <form className="mt-8 space-y-6" action="#">
+              <div>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  className="bg-gray-50 border border-gray-300 text-textColor text-sm rounded-lg block w-full p-2.5 shadow-md"
+                  placeholder="Email..."
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="username"
+                  name="username"
+                  id="username"
+                  className="bg-gray-50 border border-gray-300 text-textColor text-sm rounded-lg block w-full p-2.5 shadow-md"
+                  placeholder="Username..."
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  className="bg-gray-50 border border-gray-300 text-textColor text-sm rounded-lg block w-full p-2.5 shadow-md"
+                  placeholder="Password..."
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="confirm password"
+                  name="confirm password"
+                  id="confirm password"
+                  className="bg-gray-50 border border-gray-300 text-textColor text-sm rounded-lg block w-full p-2.5 shadow-md"
+                  placeholder="Confirm Password..."
+                  required
+                />
+              </div>
+              <div className="flex justify-center flex-col items-center"> {/* Button container */}
+  <button
+    type="submit"
+    className="w-52 px-3 py-2 mb-1 text-base font-bold text-center shadow-md bg-primary hover:bg-secondary text-white bg-black rounded-lg focus:ring-4 focus:ring-blue-300 mx-auto"
+  >
+    Register
+  </button>
+</div>
+
+                {/* Text and social media login buttons */}
+                <p className="text-xs text-center mt-4 mb-4">or sign up with</p>
+                <div className="flex justify-center">
+                  <button
+                    className="w-10 h-10 bg-white rounded-full mx-2"
+                    onClick={() => handleSocialMediaLogin('Facebook')}
+                  >
+                    <img src={facebookIcon} alt="Facebook" />
+                  </button>
+                  <button
+                    className="w-10 h-10 bg-white rounded-full mx-2"
+                    onClick={() => handleSocialMediaLogin('Google')}
+                  >
+                    <img src={googleIcon} alt="Google" />
+                  </button>
+                  <button
+                    className="w-10 h-10 bg-white rounded-full mx-2"
+                    onClick={() => handleSocialMediaLogin('Google')}
+                  >
+                    <img src={appleIcon} alt="Apple" />
+                  </button>
+                </div>
+            </form>
           </div>
         </div>
+
+        {/* Right Column - Background Image */}
+        <div className="hidden lg:block lg:col-span-1 bg-cover" style={{ 
+  backgroundImage: 'url("public/image/bg-login.png")', 
+  height: '100%',
+  width: '124%',
+  backgroundPositionX: 'right', // Mengatur gambar latar belakang ke kanan
+  backgroundPositionY: 'center', // Mengatur gambar latar belakang di tengah secara vertikal
+  backgroundSize: '100% 124%' // Menutupi seluruh area secara proporsional
+}}></div>
+
       </div>
-    </>
+    </div>
   );
 };

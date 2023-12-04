@@ -1,0 +1,581 @@
+.about-us-page {
+    background-color: #040507;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .about-us-page .div-2 {
+    background-color: #040507;
+    border: 1px solid;
+    border-color: #000000;
+    height: 4534px;
+    overflow: hidden;
+    position: relative;
+    width: 1728px;
+  }
+  
+  .about-us-page .overlap {
+    background-color: #0e0e0d;
+    box-shadow: 0px -10px 30px #ffffff40;
+    height: 350px;
+    left: 0;
+    position: absolute;
+    top: 4184px;
+    width: 1728px;
+  }
+  
+  .about-us-page .text-wrapper-3 {
+    color: #ffffff;
+    font-family: 'Inika-Bold', Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    left: 123px;
+    letter-spacing: 0;
+    line-height: 47.6px;
+    position: absolute;
+    top: 26px;
+    white-space: nowrap;
+  }
+  
+  .about-us-page .p {
+    color: #ffffff;
+    font-family: 'Roboto-Bold', Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 123px;
+    letter-spacing: 0;
+    line-height: 19.1px;
+    position: absolute;
+    top: 89px;
+    width: 350px;
+  }
+  
+  .about-us-page .frame-2 {
+    align-items: flex-start;
+    display: flex;
+    gap: 70px;
+    left: 123px;
+    position: absolute;
+    top: 199px;
+    width: 567px;
+  }
+  
+  .about-us-page .icon-social {
+    height: 52px;
+    position: relative;
+    width: 52px;
+  }
+  
+  .about-us-page .icon-social-2 {
+    background-image: url(./combined-shape.svg);
+    background-size: 100% 100%;
+    height: 52px;
+    position: relative;
+    width: 52px;
+  }
+  
+  .about-us-page .shape {
+    height: 36px;
+    left: 0;
+    position: absolute;
+    top: 9px;
+    width: 52px;
+  }
+  
+  .about-us-page .text-wrapper-4 {
+    color: #ffffff;
+    font-family: 'Inika-Bold', Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 1096px;
+    letter-spacing: 0;
+    line-height: 28.6px;
+    position: absolute;
+    top: 209px;
+    white-space: nowrap;
+  }
+  
+  .about-us-page .overlap-group {
+    background-image: url(./image.png);
+    background-size: 100% 100%;
+    height: 157px;
+    left: 73px;
+    position: absolute;
+    top: 2529px;
+    width: 488px;
+  }
+  
+  .about-us-page .text-wrapper-5 {
+    color: #000000;
+    font-family: 'Roboto-Bold', Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    height: 36px;
+    left: 109px;
+    letter-spacing: 0;
+    line-height: 45px;
+    position: absolute;
+    top: 84px;
+    white-space: nowrap;
+    width: 272px;
+  }
+  
+  .about-us-page .rectangle {
+    height: 111px;
+    left: 34px;
+    position: absolute;
+    top: 25px;
+    width: 52px;
+  }
+  
+  .about-us-page .material-symbols {
+    height: 40px;
+    left: 416px;
+    position: absolute;
+    top: 81px;
+    width: 40px;
+  }
+  
+  .about-us-page .overlap-2 {
+    background-image: url(./rectangle-4109.png);
+    background-size: 100% 100%;
+    height: 157px;
+    left: 315px;
+    position: absolute;
+    top: 2744px;
+    width: 488px;
+  }
+  
+  .about-us-page .text-wrapper-6 {
+    color: #000000;
+    font-family: 'Roboto-Bold', Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    height: 36px;
+    left: 98px;
+    letter-spacing: 0;
+    line-height: 45px;
+    position: absolute;
+    top: 83px;
+    white-space: nowrap;
+    width: 272px;
+  }
+  
+  .about-us-page .img {
+    height: 111px;
+    left: 23px;
+    position: absolute;
+    top: 24px;
+    width: 52px;
+  }
+  
+  .about-us-page .material-symbols-2 {
+    height: 40px;
+    left: 415px;
+    position: absolute;
+    top: 80px;
+    width: 40px;
+  }
+  
+  .about-us-page .overlap-3 {
+    background-image: url(./rectangle-4111.png);
+    background-size: 100% 100%;
+    height: 157px;
+    left: 883px;
+    position: absolute;
+    top: 2745px;
+    width: 488px;
+  }
+  
+  .about-us-page .material-symbols-3 {
+    height: 40px;
+    left: 393px;
+    position: absolute;
+    top: 84px;
+    width: 40px;
+  }
+  
+  .about-us-page .overlap-4 {
+    background-image: url(./rectangle-4105.png);
+    background-size: 100% 100%;
+    height: 157px;
+    left: 604px;
+    position: absolute;
+    top: 2530px;
+    width: 488px;
+  }
+  
+  .about-us-page .material-symbols-4 {
+    height: 40px;
+    left: 408px;
+    position: absolute;
+    top: 84px;
+    width: 40px;
+  }
+  
+  .about-us-page .overlap-5 {
+    background-image: url(./rectangle-4107.png);
+    background-size: 100% 100%;
+    height: 157px;
+    left: 1124px;
+    position: absolute;
+    top: 2530px;
+    width: 488px;
+  }
+  
+  .about-us-page .material-symbols-5 {
+    height: 40px;
+    left: 410px;
+    position: absolute;
+    top: 80px;
+    width: 40px;
+  }
+  
+  .about-us-page .rectangle-2 {
+    background-color: #94ecbe;
+    border-radius: 20px;
+    height: 65px;
+    left: -392px;
+    position: absolute;
+    top: 728px;
+    width: 200px;
+  }
+  
+  .about-us-page .providing-the-best {
+    height: 43px;
+    left: 663px;
+    position: absolute;
+    top: 734px;
+    width: 389px;
+  }
+  
+  .about-us-page .your-career-our {
+    height: 151px;
+    left: 594px;
+    position: absolute;
+    top: 518px;
+    width: 518px;
+  }
+  
+  .about-us-page .rectangle-3 {
+    height: 620px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 197px;
+    width: 524px;
+  }
+  
+  .about-us-page .rectangle-4 {
+    height: 620px;
+    left: 1186px;
+    object-fit: cover;
+    position: absolute;
+    top: 489px;
+    width: 542px;
+  }
+  
+  .about-us-page .overlap-6 {
+    height: 385px;
+    left: 557px;
+    position: absolute;
+    top: 78px;
+    width: 667px;
+  }
+  
+  .about-us-page .rectangle-5 {
+    height: 263px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 122px;
+    width: 667px;
+  }
+  
+  .about-us-page .rectangle-6 {
+    background-color: #ffffff;
+    height: 3px;
+    left: 231px;
+    position: absolute;
+    top: 43px;
+    width: 100px;
+  }
+  
+  .about-us-page .frame-3 {
+    height: 43px;
+    left: 97px;
+    position: absolute;
+    top: 0;
+    width: 405px;
+  }
+  
+  .about-us-page .frame-7 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .about-us-page .frame-instance {
+    font-size: 24px !important;
+    line-height: 22.9px !important;
+  }
+  
+  .about-us-page .frame-10 {
+    left: 283px !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .about-us-page .component {
+    height: 153px;
+    left: 216px;
+    position: absolute;
+    top: 10px;
+    width: 145px;
+  }
+  
+  .about-us-page .group {
+    height: 23px;
+    left: 17px;
+    position: relative;
+    width: 113px;
+  }
+  
+  .about-us-page .vector {
+    height: 7px;
+    left: 101px;
+    position: absolute;
+    top: 11px;
+    width: 10px;
+  }
+  
+  .about-us-page .text-wrapper-7 {
+    color: #ffffff;
+    font-family: 'Inika-Bold', Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 22.9px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .about-us-page .rectangle-7 {
+    height: 263px;
+    left: 798px;
+    object-fit: cover;
+    position: absolute;
+    top: 844px;
+    width: 352px;
+  }
+  
+  .about-us-page .rectangle-8 {
+    height: 263px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 844px;
+    width: 762px;
+  }
+  
+  .about-us-page .rectangle-9 {
+    height: 263px;
+    left: 1258px;
+    object-fit: cover;
+    position: absolute;
+    top: 197px;
+    width: 470px;
+  }
+  
+  .about-us-page .ellipse {
+    height: 700px;
+    left: 852px;
+    object-fit: cover;
+    position: absolute;
+    top: 3161px;
+    width: 693px;
+  }
+  
+  .about-us-page .text-wrapper-8 {
+    color: #ffffff;
+    font-family: 'Inika-Bold', Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    left: 162px;
+    letter-spacing: 0;
+    line-height: 65.4px;
+    position: absolute;
+    top: 3178px;
+    width: 652px;
+  }
+  
+  .about-us-page .text-wrapper-9 {
+    color: #ffffff;
+    font-family: 'Inika-Bold', Helvetica;
+    font-size: 60px;
+    font-weight: 700;
+    left: 538px;
+    letter-spacing: 0;
+    line-height: 87.2px;
+    position: absolute;
+    text-align: center;
+    top: 2261px;
+    width: 652px;
+  }
+  
+  .about-us-page .text-wrapper-10 {
+    color: #ffffff;
+    font-family: 'Inika-Bold', Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    left: 162px;
+    letter-spacing: 0;
+    line-height: 65.4px;
+    position: absolute;
+    top: 3492px;
+    width: 613px;
+  }
+  
+  .about-us-page .text-wrapper-11 {
+    color: #ffffff;
+    font-family: 'Roboto-Regular', Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 529px;
+    letter-spacing: 0;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    top: 2399px;
+    width: 669px;
+  }
+  
+  .about-us-page .overlap-group-wrapper {
+    height: 27px;
+    left: 1526px;
+    position: absolute;
+    top: 2743px;
+    width: 28px;
+  }
+  
+  .about-us-page .overlap-group-2 {
+    height: 71px;
+    left: -42px;
+    position: relative;
+    top: -44px;
+    width: 70px;
+  }
+  
+  .about-us-page .rectangle-10 {
+    height: 47px;
+    left: 0;
+    position: absolute;
+    top: 12px;
+    width: 70px;
+  }
+  
+  .about-us-page .rectangle-11 {
+    height: 71px;
+    left: 12px;
+    position: absolute;
+    top: 0;
+    width: 46px;
+  }
+  
+  .about-us-page .rectangle-12 {
+    height: 658px;
+    left: 116px;
+    object-fit: cover;
+    position: absolute;
+    top: 1381px;
+    width: 619px;
+  }
+  
+  .about-us-page .edutor-is-a-platform {
+    color: #ffffff;
+    font-family: 'Roboto-Regular', Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 834px;
+    letter-spacing: 0;
+    line-height: 40px;
+    position: absolute;
+    top: 1485px;
+    width: 669px;
+  }
+  
+  .about-us-page .mastering-core {
+    color: #ffffff;
+    font-family: 'Roboto-Regular', Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 834px;
+    letter-spacing: 0;
+    line-height: 40px;
+    position: absolute;
+    top: 1811px;
+    width: 669px;
+  }
+  
+  .about-us-page .text-wrapper-12 {
+    color: #ffffff;
+    font-family: 'Inika-Bold', Helvetica;
+    font-size: 60px;
+    font-weight: 700;
+    left: 834px;
+    letter-spacing: 0;
+    line-height: 57.2px;
+    position: absolute;
+    top: 1380px;
+    width: 697px;
+  }
+  
+  .about-us-page .frame-3-instance {
+    background-color: #ffffff !important;
+    border-color: unset !important;
+    border-radius: 10px !important;
+    display: flex !important;
+    height: 70px !important;
+    left: 162px !important;
+    position: absolute !important;
+    top: 3785px !important;
+    width: 227px !important;
+  }
+  
+  .about-us-page .design-component-instance-node {
+    color: #000000 !important;
+    margin-top: unset !important;
+  }
+  
+  .about-us-page .login-instance {
+    left: 1396px !important;
+    position: absolute !important;
+    top: 78px !important;
+  }
+  
+  .about-us-page .login-2 {
+    color: #040507 !important;
+  }
+  
+  .about-us-page .login-3 {
+    background-color: #ffffff !important;
+    border: unset !important;
+    border-color: unset !important;
+    left: 1522px !important;
+    position: absolute !important;
+    top: 78px !important;
+  }
+  
+  .about-us-page .official-logo {
+    height: 46px;
+    left: 103px;
+    object-fit: cover;
+    position: absolute;
+    top: 77px;
+    width: 170px;
+  }
+  

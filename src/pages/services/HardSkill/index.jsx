@@ -51,13 +51,13 @@ export const HardSkill = () => {
   return (
     <div className="bg-black min-h-screen shadow-md ">
       <Navbar />
-      <div className="container mx-auto my-10 mt-20">
+      <div className="container mx-auto my-10 mt-2">
         <div className="grid max-w-screen-xl mx-auto gap-8 lg:grid-cols-2 xl:grid-cols-2">
-          <div className="lg:col-span-1 xl:col-span-1 mt-20">
+          <div className="lg:col-span-1 xl:col-span-1 mt-16">
             <img src="/public/image/banner1.png" alt="edutorlogo" className="rounded-md" />
           </div>
 
-          <div className="text-white text-start text-lg lg:text-xl xl:text-3xl gap-2 col-auto mt-40">
+          <div className="text-white text-start text-lg lg:text-xl xl:text-3xl gap-2 col-auto mt-16">
             <h1 className="text-3xl font-bold text-gold">Hard Skills</h1>
             <p className="mt-10 text-4xl font-bold lg:text-4xl xl:text-6xl">Grow your skills with up to date courses</p>
             <p className="mt-10 text-lg lg:text-xl xl:text-2xl">Up to date courses with interesting graphics to kickstart your fundamentals and accelerate your hard skills</p>

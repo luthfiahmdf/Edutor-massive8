@@ -10,7 +10,7 @@ export const Advice = () => {
     <main className="bg-black min-h-screen flex flex-col items-center justify-center">
       <Navbar />
       <div className="container max-w-5xl mx-auto grid grid-cols-2 py-24">
-        <div className="col-span-1 mt-16">
+        <div className="col-span-1 mt-2">
           <h1 className="font-bold text-3xl pb-5 font-['inika'] text-yellow-500">Advice</h1>
           <br />
           <br />
@@ -18,7 +18,7 @@ export const Advice = () => {
           <br />
           <div className="font-bold text-1xl pb-9 font-['inika'] text-white">Up to date articles with interesting graphics to kickstart and accelerate your career</div>
         </div>
-        <div className="col-span-1 flex justify-center mt-10">
+        <div className="col-span-1 flex justify-center mt-2">
           <img className="max-w-md h-auto rounded-xl" src="/public/image/image_26.png" alt="" />
         </div>
       </div>
