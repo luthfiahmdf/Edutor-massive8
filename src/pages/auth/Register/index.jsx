@@ -36,7 +36,7 @@ export const Register = () => {
               </div>
               <div>
                 <input
-                  type="username"
+                  type="email"
                   name="username"
                   id="username"
                   className="bg-gray-50 border border-gray-300 text-textColor text-sm rounded-lg block w-full p-2.5 shadow-md"
@@ -56,7 +56,7 @@ export const Register = () => {
               </div>
               <div>
                 <input
-                  type="confirm password"
+                  type="email"
                   name="confirm password"
                   id="confirm password"
                   className="bg-gray-50 border border-gray-300 text-textColor text-sm rounded-lg block w-full p-2.5 shadow-md"

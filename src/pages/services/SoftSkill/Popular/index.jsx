@@ -16,6 +16,7 @@ export const Popular = () => {
 
   return (
     <>
+    <Navbar />
       <div style={divStyle}>
         <div className="container mx-auto mt-16">
           <hr className="border-t-2 border-white my-6 w-1/2" />
@@ -35,7 +36,7 @@ export const Popular = () => {
 
       {/* New Team Section */}
       <div className="bg-black py-24 sm:py-12">
-        <Navbar />
+        
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold mb-8 text-left text-white">Browse Leadership courses</h2>
           <div className="grid grid-cols-4 gap-8 justify-items-center mt-16">
