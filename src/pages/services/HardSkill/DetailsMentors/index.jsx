@@ -1,3 +1,4 @@
+import { Carousel } from 'flowbite-react';
 import Card from '../../../../Components/Card';
 import FooterComponent from '../../../../Components/Footer';
 import Navbar from '../../../../Components/Navbar';

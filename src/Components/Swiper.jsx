@@ -35,7 +35,7 @@ const CardSlider = ({ cardData }) => {
   return (
     <Slider {...settings}>
       {cardData.map((card, index) => (
-        <div key={index} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 border border-white mb-4 rounded-md dark:bg-gray-800">
+        <div key={index} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 border border-white mb-4 rounded-md dark:bg-black">
           <div className="flex flex-col items-center">
             <a href={card.link}>
               <img src="/public/image/ment6.jpg" alt={`Profile of ${card.name}`} className="rounded-full w-35 h-20 object-cover mb-4 mt-4" />
