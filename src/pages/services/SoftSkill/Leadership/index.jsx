@@ -35,7 +35,7 @@ export const Leadership = () => {
             <h2 className="text-1xl">gatherings. </h2>
           </div>
           <div className="w-1/2">
-            <img src="/" alt="Leadership Image" className="w-full h-auto" />
+            <img src="/public/image/leadership.png" alt="Leadership Image" className="w-full h-auto" />
           </div>
         </div>
       </div>
