@@ -51,11 +51,11 @@ export default function FormQuestion() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <div className="mb-6 shadow-xl">
-                <label htmlFor="name" className="block text-sm font-medium text-gray-600 mb-2"></label>
+                <label htmlFor="name" className="block text-xl font-bold text-black mb-2">Name</label>
                 <input type="text" id="name" placeholder="Your Name" className="w-full p-3 border rounded-md focus:outline-none focus:border-blue-500" />
               </div>
               <div className="mb-6 shadow-xl">
-                <label htmlFor="email" className="block text-sm font-medium text-gray-600 mb-2"></label>
+                <label htmlFor="email" className="block text-xl font-bold text-black mb-2">Email</label>
                 <input
                   type="email"
                   id="email"
@@ -71,7 +71,7 @@ export default function FormQuestion() {
                 />
               </div>
               <div className="mb-6 shadow-xl">
-                <label htmlFor="phone" className="block text-sm font-medium text-gray-600 mb-2"></label>
+                <label htmlFor="phone" className="block text-xl font-bold text-black mb-2">Phone</label>
                 <input
                   type="tel"
                   id="phone"
@@ -89,7 +89,7 @@ export default function FormQuestion() {
             </div>
 
             <div className="col-span-2 md:col-span-1 mb-6 shadow-sm rounded-md">
-              <label htmlFor="question" className="block text-sm font-medium text-gray-600 mb-2"></label>
+              <label htmlFor="question" className="block text-xl font-bold text-black mb-2">Your Question</label>
               <textarea id="question" placeholder="Your Question" rows="5" className="w-full p-3 border rounded-md focus:outline-none focus:border-blue-500"></textarea>
             </div>
           </div>
