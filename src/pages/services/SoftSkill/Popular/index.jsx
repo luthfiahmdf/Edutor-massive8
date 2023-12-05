@@ -216,8 +216,8 @@ export const Popular = () => {
             </div>
           </div>
         </div>
-        <FooterComponent />
       </div>
+      <FooterComponent />
     </>
   );
 };

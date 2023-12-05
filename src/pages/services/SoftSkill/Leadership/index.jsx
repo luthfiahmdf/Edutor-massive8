@@ -201,8 +201,8 @@ export const Leadership = () => {
             </a>
           </div>
         </div>
-        <FooterComponent />
       </div>
+      <FooterComponent />
     </>
   );
 };
