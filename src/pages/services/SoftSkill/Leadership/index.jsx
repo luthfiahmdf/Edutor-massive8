@@ -33,9 +33,12 @@ export const Leadership = () => {
             <h2 className="text-1xl">older people. In this course, Hans Leon will teach you how to </h2>
             <h2 className="text-1xl">develop strong leadership and how to manage seniority issues in </h2>
             <h2 className="text-1xl">gatherings. </h2>
+            <button>
+              <a href="/services/softskill/enrollsoft" className="inline-block border border-white mt-10 font-semibold text-white py-1 px-2 rounded hover:text-gold w-auto">Enroll Now</a>
+              </button>
           </div>
           <div className="w-1/2">
-            <img src="/public/image/leadership.png" alt="Leadership Image" className="w-full h-auto" />
+            <img src="/public/image/corsof1.png" alt="Leadership Image" className="w-full h-auto mt-16 mb-16" />
           </div>
         </div>
       </div>
@@ -153,50 +156,50 @@ export const Leadership = () => {
           <div className="grid grid-cols-4 gap-8 justify-items-center mt-16">
             {/* Team Member 1 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="/public/image/banner2.png" alt="Team Member 1" className="w-full h-full object-contain" />
+              <img src="/public/image/corsof9.png" alt="Team Member 9" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
-              <h3 className="text-sm font-bold">Leadership when you are the youngest there</h3>
-              <p className="text-xs">Hans Leon</p>
+              <h3 className="text-sm font-bold">Effective leadership: learn the principles</h3>
+              <p className="text-xs">Reynold Winston</p>
               <hr className="w-full border-t-2 border-black mt-2" />
             </a>
 
-            {/* Team Member 2 */}
+            {/* Team Member 10 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="/public/image/banner2.png" alt="Team Member 2" className="w-full h-full object-contain" />
+              <img src="/public/image/corsof10.png" alt="Team Member 10" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
-              <h3 className="text-sm font-bold">Leadership when you are the youngest there</h3>
-              <p className="text-xs">Hans Leon</p>
+              <h3 className="text-sm font-bold">How you can influence the company with leadership</h3>
+              <p className="text-xs">Vincent Novolski</p>
               <hr className="w-full border-t-2 border-black mt-2" />
             </a>
 
-            {/* Team Member 3 */}
+            {/* Team Member 11 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="/public/image/banner2.png" alt="Team Member 3" className="w-full h-full object-contain" />
+              <img src="/public/image/corsof11.png" alt="Team Member 11" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
-              <h3 className="text-sm font-bold">Leadership when you are the youngest there</h3>
-              <p className="text-xs">Hans Leon</p>
+              <h3 className="text-sm font-bold">Finding your leadership style: which one is for you?</h3>
+              <p className="text-xs">Anna Handerson</p>
               <hr className="w-full border-t-2 border-black mt-2" />
             </a>
 
-            {/* Team Member 4 */}
+            {/* Team Member 12 */}
             <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-              <img src="/public/image/banner2.png" alt="Team Member 4" className="w-full h-full object-contain" />
+              <img src="/public/image/corsof12.png" alt="Team Member 12" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
               <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
-              <h3 className="text-sm font-bold">Leadership when you are the youngest there</h3>
-              <p className="text-xs">Hans Leon</p>
+              <h3 className="text-sm font-bold">Developing your leadership style</h3>
+              <p className="mt-5 text-xs">Brendan Smith</p>
               <hr className="w-full border-t-2 border-black mt-2" />
             </a>
           </div>
           <div className="mt-10 text-white text-left">
-            <a href="#" className="inline-block bg-black border border-white font-semibold text-white py-2 px-8 rounded hover:text-gold w-auto mb-16">
+            <a href="/service/softskill/popular" className="inline-block bg-black border border-white font-semibold text-white py-2 px-8 rounded hover:text-gold w-auto mb-16">
               Back
             </a>
           </div>

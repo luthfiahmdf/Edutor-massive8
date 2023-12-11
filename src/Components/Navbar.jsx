@@ -23,8 +23,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-black w-full z-20 top-0 left-0 border-b border-gray-200">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+      <nav className="bg-black fixed w-full z-20 top-0 left-0 border-b border-gray-200">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" className="flex items-center">
             <img src="/public/image/logoedu.png" alt="" />
           </a>
@@ -48,22 +48,22 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="relative group">
-                <button onClick={toggleDropdown} className="flex items-center focus:outline-none text-gray-300 hover:text-gold">
+                <button onClick={toggleDropdown} className="flex items-center focus:outline-none text-gray-300 hover:text-gold ml-3">
                   <span className="mr-1">Service</span>
                   <span className={`ml-1 ${isDropdownOpen ? 'rotate-180' : 'rotate-0'} transition-transform duration-300`}>&#9662;</span>
                 </button>
                 {isDropdownOpen && (
                   <div ref={dropdownRef} className="absolute bg-black text-white mt-2 p-0 rounded-md border border-gray-700 shadow-xl">
                     {/* Dropdown Content Here */}
-                    <a href="/services/advice" className="block px-6 hover:text-gold">
+                    <a href="/services/advice" className="block py-2 px-6 hover:text-gold">
                       <span className="inline-block ml-2 whitespace-nowrap">Advices</span>
                     </a>
                     <hr className="border-t border-gray-600" />
-                    <a href="/services/HardSkill" className="block px-6 w-full text-left hover:text-gold">
+                    <a href="/services/HardSkill" className="block py-2 px-6 w-full text-left hover:text-gold">
                       <span className="inline-block ml-2 whitespace-nowrap">Hard Skill</span>
                     </a>
                     <hr className="border-t border-gray-600" />
-                    <a href="/services/SoftSkill" className="block px-6 w-full text-left hover:text-gold">
+                    <a href="/services/SoftSkill" className="block py-2 px-6 w-full text-left hover:text-gold">
                       <span className="inline-block ml-2 whitespace-nowrap">Soft Skill</span>
                     </a>
                   </div>

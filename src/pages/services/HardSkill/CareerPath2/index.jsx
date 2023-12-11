@@ -1,7 +1,25 @@
 import { Link } from 'react-router-dom';
-import Accordion from '../../../../Components/Accordion';
 import FooterComponent from '../../../../Components/Footer';
 import Navbar from '../../../../Components/Navbar';
+import Accordion from '../../../../Components/Accordion';
+
+const dataAccordion = [
+  {
+    id: 1,
+    title: 'Part 1 (Introduction to code)',
+    desc: 'desc 1',
+  },
+  {
+    id: 2,
+    title: 'Part 2 (Basic HTML)',
+    desc: 'desc 2',
+  },
+  {
+    id: 3,
+    title: 'Part 3 (Basic CSS)',
+    desc: 'desc 3',
+  },
+];
 
 export const CareerPath2 = () => {
   return (
@@ -12,14 +30,11 @@ export const CareerPath2 = () => {
           <div className="grid max-w-screen-xl  mx-auto gap-8 lg:grid-cols-2 xl:grid-cols-2 items-center">
             <div className="lg:col-span-1 xl:col-span-1 mt-[10vh]">
               <div className="relative w-full h-0" style={{ paddingBottom: '56.25%' }}>
-                <video className="absolute inset-0 w-full h-full object-cover rounded-md" controls>
-                  <source src="/path/to/your/video.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                <iframe title="YouTube Video" className="absolute inset-0 w-full h-full object-cover mt-10 rounded-md" src="https://www.youtube.com/embed/bJzb-RuUcMU" frameBorder="0" allowFullScreen></iframe>
               </div>
             </div>
 
-            <div className="lg:col-span-1 xl:col-span-1 mt-16">
+            <div className="lg:col-span-1 xl:col-span-1 mt-24">
               <div className="text-white text-start text-lg lg:text-xl xl:text-3xl gap-2 col-auto">
                 <h1 className="text-3xl font-bold text-white">Complete Basic Coding for Beginner</h1>
                 <p className="mt-5 text-2xl">Learn how to code from scratch with me: step by step coding course</p>
@@ -82,7 +97,7 @@ export const CareerPath2 = () => {
           </div>
 
           <div className="w-full">
-            <Accordion />;
+            <Accordion allData={dataAccordion} />
           </div>
 
           {/* New Team Section */}
@@ -158,7 +173,7 @@ export const CareerPath2 = () => {
               <div className="grid grid-cols-4 gap-8 justify-items-center mt-16">
                 {/* Team Member 1 */}
                 <a href="/public/image/ment1.png" className="bg-gray-300 flex flex-col items-right justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-                  <img src="/public/image/banner2.png" alt="Team Member 1" className="w-full h-full object-contain" />
+                  <img src="/public/image/corhard1.png" alt="Team Member 1" className="w-full h-full object-contain" />
                   <br />
                   <hr className="w-full border-t-2 border-black mb-2" />
                   <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
@@ -169,39 +184,39 @@ export const CareerPath2 = () => {
 
                 {/* Team Member 2 */}
                 <a href="/public/image/card1.png" className="bg-gray-300 flex flex-col items-right justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-                  <img src="/public/image/banner2.png" alt="Team Member 2" className="w-full h-full object-contain" />
+                  <img src="/public/image/corhard2.png" alt="Team Member 2" className="w-full h-full object-contain" />
                   <br />
                   <hr className="w-full border-t-2 border-black mb-2" />
                   <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
                   <h3 className="text-sm font-bold">Fundamentals of Data Science</h3>
-                  <p className="text-xs">Hans Leon</p>
+                  <p className="mt-5 text-xs">Hans Leon</p>
                   <hr className="w-full border-t-2 border-black mt-2" />
                 </a>
 
                 {/* Team Member 3 */}
                 <a href="#" className="bg-gray-300 flex flex-col items-right justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-                  <img src="/public/image/banner2.png" alt="Team Member 3" className="w-full h-full object-contain" />
+                  <img src="/public/image/corhard3.png" alt="Team Member 3" className="w-full h-full object-contain" />
                   <br />
                   <hr className="w-full border-t-2 border-black mb-2" />
                   <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
                   <h3 className="text-sm font-bold">Basic Java Script Programming</h3>
-                  <p className="text-xs">Hans Leon</p>
+                  <p className="mt-5 text-xs">Hans Leon</p>
                   <hr className="w-full border-t-2 border-black mt-2" />
                 </a>
 
                 {/* Team Member 4 */}
                 <a href="#" className="bg-gray-300 flex flex-col items-right justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
-                  <img src="/public/image/banner2.png" alt="Team Member 4" className="w-full h-full object-contain" />
+                  <img src="/public/image/corhard4.png" alt="Team Member 4" className="w-full h-full object-contain" />
                   <br />
                   <hr className="w-full border-t-2 border-black mb-2" />
                   <span className="text-black text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1k reviews)</span>
                   <h3 className="text-sm font-bold">Fundamentals of Android Studio</h3>
-                  <p className="text-xs">Hans Leon</p>
+                  <p className="mt-5 text-xs">Hans Leon</p>
                   <hr className="w-full border-t-2 border-black mt-2" />
                 </a>
               </div>
               <div className="mt-10 text-white text-left">
-                <a href="#" className="inline-block bg-black border border-white font-semibold text-white py-2 px-8 rounded hover:text-gold w-auto">
+                <a href="/services/hardskill/careerpath" className="inline-block bg-black border border-white font-semibold text-white py-2 px-8 rounded hover:text-gold w-auto">
                   Back
                 </a>
               </div>

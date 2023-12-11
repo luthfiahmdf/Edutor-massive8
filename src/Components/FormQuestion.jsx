@@ -45,22 +45,20 @@ export default function FormQuestion() {
   return (
     <>
       <div className=" min-h-screen flex items-center justify-center">
-        <div className="bg-gray-400 min-h-max p-12 rounded shadow-md max-w-8xl w-full">
-          <h1 className="text-3xl font-bold mb-8 text-center text-black">Ask Question</h1>
+        <div className="bg-black min-h-max p-12 rounded shadow-md max-w-8xl w-full">
+          <h1 className="text-3xl font-bold mb-8 text-center text-white">Ask Question</h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <div className="mb-6 shadow-xl">
-                <label htmlFor="name" className="block text-xl font-bold text-black mb-2">Name</label>
-                <input type="text" id="name" placeholder="Your Name" className="w-full p-3 border rounded-md focus:outline-none focus:border-blue-500" />
+                <input type="text" id="name" placeholder="Your Name" className="w-full p-3 bg-gray-700 shadow-md rounded-md focus:outline-none focus:border-blue-500" />
               </div>
               <div className="mb-6 shadow-xl">
-                <label htmlFor="email" className="block text-xl font-bold text-black mb-2">Email</label>
                 <input
                   type="email"
                   id="email"
                   placeholder="Your Email"
-                  className="w-full p-3 border rounded-md focus:outline-none focus:border-blue-500"
+                  className="w-full p-3 bg-gray-700 shadow-md rounded-md focus:outline-none focus:border-blue-500"
                   onBlur={() => {
                     if (!validateEmail(document.getElementById('email').value)) {
                       document.getElementById('email').classList.add('border-red-500');
@@ -71,12 +69,11 @@ export default function FormQuestion() {
                 />
               </div>
               <div className="mb-6 shadow-xl">
-                <label htmlFor="phone" className="block text-xl font-bold text-black mb-2">Phone</label>
                 <input
                   type="tel"
                   id="phone"
                   placeholder="Your Phone Number"
-                  className="w-full p-3 border rounded-md focus:outline-none focus:border-blue-500"
+                  className="w-full p-3 bg-gray-700 shadow-md rounded-md focus:outline-none focus:border-blue-500"
                   onBlur={() => {
                     if (!validatePhone(document.getElementById('phone').value)) {
                       document.getElementById('phone').classList.add('border-red-500');
@@ -89,8 +86,7 @@ export default function FormQuestion() {
             </div>
 
             <div className="col-span-2 md:col-span-1 mb-6 shadow-sm rounded-md">
-              <label htmlFor="question" className="block text-xl font-bold text-black mb-2">Your Question</label>
-              <textarea id="question" placeholder="Your Question" rows="5" className="w-full p-3 border rounded-md focus:outline-none focus:border-blue-500"></textarea>
+              <textarea id="question" placeholder="Your Question" rows="5" className="w-full p-9 bg-gray-700 shadow-md rounded-md focus:outline-none focus:border-blue-500"></textarea>
             </div>
           </div>
 

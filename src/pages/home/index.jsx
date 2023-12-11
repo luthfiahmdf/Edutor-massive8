@@ -2,14 +2,16 @@
 import Navbar from '../../Components/Navbar';
 import FooterComponent from '../../Components/Footer';
 import { Carousel } from 'flowbite-react';
+// import HeaderBanner from '../public/image/bg-header-text-2.jpg'
+import HeaderBanner from '../../../public/image/bg-header-text-2.jpg'
 
 export const Home = () => {
   return (
     <>
       <Navbar />
       <div className="bg-black min-h-screen ">
-        <section className="container header">
-          <img src="/public/image/bg-header-text-2.jpg" alt="header" />
+        <section className="container header min-h-screen" style={{ backgroundImage:`url(${HeaderBanner})`,backgroundSize:'cover',backgroundPosition:'center' }}>
+          {/* <img src="/public/image/bg-header-text-2.jpg" alt="header" /> */}
         </section>
         <section className="background-image-text-container h-56 sm:h-64 xl:h-80 2xl:h-96">
           <Carousel className="container">
@@ -204,7 +206,7 @@ export const Home = () => {
             </div>
 
             {/* Teks di sebelah kanan */}
-            <div className="ml-4 text-white">
+            <div className="ml-4 text-white mb-16">
               <h2 className="font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl">Professional Soft Skills</h2>
               <p className="pt-6 sm:text-lg md:text-xl lg:text-xl">
                 A professional skill describes a habit, personality trait <br />
@@ -213,65 +215,6 @@ export const Home = () => {
                 all job positions, industries and work environments.
               </p>
             </div>
-          </div>
-        </div>
-
-        <div className="container mx-auto pt-12">
-          <section className="bg-black mt-4 mb-2 pt-14 shadow-md rounded-md">
-            <h1 className="text-center font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white">What they say</h1>
-          </section>
-
-          <div className="carousel">
-            <a className="carousel-item" href="#">
-              <div className="testi">
-                <div className="img-area">
-                  <img src="../../public/image/ment1.png" alt="Mentor 1" />
-                </div>
-                <p>“Ayo, mulailah konsultasi bersama expert kami. Perjalananmu untuk lebih sehat mental telah dimulai.”</p>
-                <h4>Muhammad Yusuf</h4>
-                <h5>Web Designer</h5>
-              </div>
-            </a>
-            <a className="carousel-item" href="#">
-              <div className="testi">
-                <div className="img-area">
-                  <img src="./public/image/ment2.jpg" alt="Mentor 2" />
-                </div>
-                <p>“Ayo, mulailah konsultasi bersama expert kami. Perjalananmu untuk lebih sehat mental telah dimulai.”</p>
-                <h4>Alexandria</h4>
-                <h5>Web Designer</h5>
-              </div>
-            </a>
-            <a className="carousel-item" href="#">
-              <div className="testi">
-                <div className="img-area">
-                  <img src="./public/image/ment3.jpg" alt="Mentor 3" />
-                </div>
-                <p>“Ayo, mulailah konsultasi bersama expert kami. Perjalananmu untuk lebih sehat mental telah dimulai.”</p>
-                <h4>James </h4>
-                <h5>Web Designer</h5>
-              </div>
-            </a>
-            <a className="carousel-item" href="#">
-              <div className="testi">
-                <div className="img-area">
-                  <img src="./public/image/ment4.jpg" alt="Mentor 4" />
-                </div>
-                <p>“Ayo, mulailah konsultasi bersama expert kami. Perjalananmu untuk lebih sehat mental telah dimulai.”</p>
-                <h4>Trihartanto</h4>
-                <h5>Web Designer</h5>
-              </div>
-            </a>
-            <a className="carousel-item" href="#">
-              <div className="testi">
-                <div className="img-area">
-                  <img src="./public/image/ment5.jpg" alt="Mentor 5" />
-                </div>
-                <p>“Ayo, mulailah konsultasi bersama expert kami. Perjalananmu untuk lebih sehat mental telah dimulai.”</p>
-                <h4>Teguh Pamungkas</h4>
-                <h5>Web Designer</h5>
-              </div>
-            </a>
           </div>
         </div>
       </div>

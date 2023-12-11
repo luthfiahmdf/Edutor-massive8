@@ -47,11 +47,29 @@ const cardData = [
     linkHref: '/path/to/page2',
   },
 ];
+
+const dataAccordion = [
+  {
+    id: 1,
+    title: "Up to date curriculum",
+    desc: "Up to date courses with interesting graphics to kickstart your fundamentals and accelerate your hard skills.",
+  },
+  {
+    id: 2,
+    title: "Professional Mentors",
+    desc: "Trusted professional mentors with real skill and experience to teach you.",
+  },
+  {
+    id: 3,
+    title: "Individual Mentoring",
+    desc: "Passionate mentors lending a hand in 1-1 individual mentoring to help you with your personal work.",
+  },
+]
 export const HardSkill = () => {
   return (
     <div className="bg-black min-h-screen shadow-md ">
       <Navbar />
-      <div className="container mx-auto my-10 mt-2">
+      <div className="container mx-auto my-10 mt-16">
         <div className="grid max-w-screen-xl mx-auto gap-8 lg:grid-cols-2 xl:grid-cols-2">
           <div className="lg:col-span-1 xl:col-span-1 mt-16">
             <img src="/public/image/banner1.png" alt="edutorlogo" className="rounded-md" />
@@ -75,7 +93,7 @@ export const HardSkill = () => {
 
           <div className="lg:col-span-2 xl:col-span-2 grid gap-8 lg:grid-cols-2 xl:grid-cols-2 justify-between">
             <div className="">
-              <AccordionFlowbite />
+              <AccordionFlowbite allData={dataAccordion} />
             </div>
 
             <div className="text-white text-start text-lg lg:text-xl xl:text-3xl gap-2 col-auto">

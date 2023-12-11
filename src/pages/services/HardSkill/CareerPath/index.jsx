@@ -69,7 +69,7 @@ export const CareerPath = () => {
         <Navbar />
         <div className="flex flex-col justify-center items-center">
           <div className="text-slate-50 mt-[10vh] mb-10 gap-8 flex justify-center items-center flex-col w-[40%] text-center">
-            <h1 className="text-[#FFB80F] text-4xl font-bold">Front-end Web Developer </h1>
+            <h1 className="text-[#FFB80F] text-4xl font-bold mt-16">Front-end Web Developer </h1>
             <p className="text-2xl font-bold">Up to date courses with interesting graphics to kickstart your fundamentals and accelerate your hard skills</p>
           </div>
           <div className="flex flex-row w-[60%] my-[5vh] gap-3">
