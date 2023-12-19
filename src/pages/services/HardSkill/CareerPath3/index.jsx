@@ -2,9 +2,9 @@ import Card from '../../../../Components/Card';
 import { Course } from '../../../../Components/Course';
 import FooterComponent from '../../../../Components/Footer';
 import Navbar from '../../../../Components/Navbar';
-import course1 from '/image/course1.png';
-import course2 from '/image/course2.png';
-import course3 from '/image/course3.png';
+import course1 from '/image/hardskilluiux1.png';
+import course2 from '/image/hardskilluiux2.png';
+import course3 from '/image/hardskilluiux3.png';
 
 export const CareerPath3 = () => {
   const cardData = [
@@ -34,28 +34,28 @@ export const CareerPath3 = () => {
     {
       image: `${course1}`,
       id: 1,
-      title: 'Complete Basic Coding for Beginner',
-      description: 'Learn how to code from scratch with me: step by step coding course',
-      mentor: 'Jesslyn Leon',
+      title: 'Learn Basic Website UI & UX Design',
+      description: 'Learn how to make basic website design to attract people about your website.',
+      mentor: 'Malik Hills',
       rating: '4.5',
-      time: '16',
-      video: '50',
+      time: '25',
+      video: '64',
     },
     {
       image: `${course2}`,
       id: 2,
-      title: 'Complete Basic Front-End Developer: Learn CSS & JS',
-      description: 'Learn basic front-end developer language with easy to understand course',
+      title: 'Responsive Website UI & UX Design',
+      description: 'Learn how to make responsive website design that is easy to understand and use.',
       mentor: 'Christina Field',
       rating: '4.0',
-      time: '34',
-      video: '135',
+      time: '25',
+      video: '47',
     },
     {
       id: 3,
       image: `${course3}`,
-      title: 'Learn Intermediate Front-End Developer Code',
-      description: 'The ultimate intermediate front-end developer coding course for job hunters and student.',
+      title: 'Learn How to Make Advanced UI & UX Design',
+      description: 'The ultimate advanced UI & UX design where we teach you how to make advanced responsive website that is cool.',
       mentor: 'Christina Field',
       rating: '4.6',
       time: '54',
@@ -68,7 +68,7 @@ export const CareerPath3 = () => {
         <Navbar />
         <div className="flex flex-col justify-center items-center">
           <div className="text-slate-50 mt-[10vh] mb-20 gap-8 flex justify-center items-center flex-col w-[40%] text-center">
-            <h1 className="text-[#FFB80F] text-4xl font-bold mt-16">Front-end Web Developer </h1>
+            <h1 className="text-[#FFB80F] text-4xl font-bold mt-16">UI/UX DESIGNER </h1>
             <p className="text-2xl font-bold">Up to date courses with interesting graphics to kickstart your fundamentals and accelerate your hard skills</p>
           </div>
 
