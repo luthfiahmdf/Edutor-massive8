@@ -8,22 +8,17 @@ export const DetailMentors = () => {
     {
       title: 'React',
       imageUrl: '/public/image/card1.png',
-      linkHref: '/services/hardskill/careerpath',
+      linkHref: '/comingsoon',
     },
     {
       title: 'Javascript',
       imageUrl: '/public/image/card2.png',
-      linkHref: '/services/hardskill/careerpath',
-    },
-    {
-      title: 'Javascript',
-      imageUrl: '/public/image/card2.png',
-      linkHref: '/services/hardskill/careerpath',
+      linkHref: '/comingsoon',
     },
     {
       title: 'Python',
       imageUrl: '/public/image/card3.png',
-      linkHref: '/services/hardskill/careerpath',
+      linkHref: '/comingsoon',
     },
   ];
   return (
@@ -71,7 +66,7 @@ export const DetailMentors = () => {
           </div>
           <div className="lg:col-span-3 xl:col-span-3 text-center text-white mt-40 mb-40">
             <h1 className="font-bold text-3xl mt-7">Course</h1>
-            <div className="grid grid-cols-4 justify-items-center mt-20">
+            <div className="grid grid-cols-3 justify-items-center mt-20">
               {cardData.map((card, index) => (
                 <Card key={index} title={card.title} imageUrl={card.imageUrl} linkHref={card.linkHref} />
               ))}

@@ -182,23 +182,23 @@ export const SoftSkill = () => {
                 <a href="/service/softskill/popular2" className="bg-black border border-white font-semibold text-white py-2 px-10 rounded block hover:text-gold">
                   Teamwork
                 </a>
-                <a href="#" className="bg-black border border-white font-semibold text-white py-2 px-11 rounded block hover:text-gold">
+                <a href="/comingsoon" className="bg-black border border-white font-semibold text-white py-2 px-11 rounded block hover:text-gold">
                   Analysis
                 </a>
-                <a href="#" className="bg-black border border-white font-semibold text-white py-2 px-8 rounded block hover:text-gold">
+                <a href="/comingsoon" className="bg-black border border-white font-semibold text-white py-2 px-8 rounded block hover:text-gold">
                   Adaptation
                 </a>
                 {/* Second row */}
-                <a href="#" className="bg-black border border-white font-semibold text-white py-2 px-4 rounded block hover:text-gold">
+                <a href="/comingsoon" className="bg-black border border-white font-semibold text-white py-2 px-4 rounded block hover:text-gold">
                   Public Speaking
                 </a>
-                <a href="#" className="bg-black border border-white font-semibold text-white py-2 px-5 rounded block hover:text-gold">
+                <a href="/comingsoon" className="bg-black border border-white font-semibold text-white py-2 px-5 rounded block hover:text-gold">
                   Communication
                 </a>
-                <a href="#" className="bg-black border border-white font-semibold text-white py-2 px-10 rounded block hover:text-gold">
+                <a href="/comingsoon" className="bg-black border border-white font-semibold text-white py-2 px-10 rounded block hover:text-gold">
                   Creativity
                 </a>
-                <a href="#" className="bg-black border border-white font-semibold text-white py-2 px-8 rounded block hover:text-gold">
+                <a href="/comingsoon" className="bg-black border border-white font-semibold text-white py-2 px-8 rounded block hover:text-gold">
                   Networking
                 </a>
               </div>

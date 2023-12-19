@@ -14,32 +14,32 @@ const cardData = [
   {
     title: 'BackEnd Developer',
     imageUrl: '/public/image/card2.png',
-    linkHref: '/services/hardskill/careerpath',
+    linkHref: '/comingsoon',
   },
   {
     title: 'IOS Developer',
     imageUrl: '/public/image/card3.png',
-    linkHref: '/services/hardskill/careerpath',
+    linkHref: '/comingsoon',
   },
   {
     title: 'Android Developer',
     imageUrl: '/public/image/card4.png',
-    linkHref: '/services/hardskill/careerpath',
+    linkHref: '/comingsoon',
   },
   {
     title: 'Data Scients',
     imageUrl: '/public/image/card5.png',
-    linkHref: '/services/hardskill/careerpath',
+    linkHref: '/comingsoon',
   },
   {
     title: 'Data Enginer',
     imageUrl: '/public/image/card6.png',
-    linkHref: '/services/hardskill/careerpath',
+    linkHref: '/comingsoon',
   },
   {
     title: 'Data Analist',
     imageUrl: '/public/image/card7.png',
-    linkHref: '/services/hardskill/careerpath',
+    linkHref: '/comingsoon',
   },
   {
     title: 'UI/UX',

@@ -19,6 +19,9 @@ import { Enroll } from './pages/services/HardSkill/Enroll/index.jsx';
 import { Article } from './pages/services/Advice/Article/index.jsx';
 import { EnrollSoft } from './pages/services/SoftSkill/EnrollSoft/index.jsx';
 import { CareerPath3 } from './pages/services/HardSkill/CareerPath3/index.jsx';
+import { ComingSoon } from './pages/ComingSoon/index.jsx';
+import { Leadership2 } from './pages/services/SoftSkill/Leadership2/index.jsx';
+import { EnrollSoft2 } from './pages/services/SoftSkill/EnrollSoft2/index.jsx';
 
 export const Router = createBrowserRouter([
   {
@@ -38,6 +41,10 @@ export const Router = createBrowserRouter([
     element: <About />,
   },
   {
+    path: '/comingsoon',
+    element: <ComingSoon />,
+  },
+  {
     path: '/services/softskill',
     element: <SoftSkill />,
   },
@@ -45,6 +52,10 @@ export const Router = createBrowserRouter([
   {
     path: '/service/softskill/leadership',
     element: <Leadership />,
+  },
+  {
+    path: '/service/softskill/leadership2',
+    element: <Leadership2 />,
   },
   {
     path: '/service/softskill/popular',
@@ -94,6 +105,11 @@ export const Router = createBrowserRouter([
     path: '/services/softskill/enrollsoft',
     element: <EnrollSoft />,
   },
+  {
+    path: '/services/softskill/enrollsoft2',
+    element: <EnrollSoft2 />,
+  },
+  
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

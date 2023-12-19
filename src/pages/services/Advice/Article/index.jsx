@@ -91,7 +91,7 @@ export const Article = () => {
                   <p className="text-gray-700 text-base font-['inika']">
                   Being efficient is a great way for your work. Learn to do it now!
                   </p>
-                  <Link to="/service/advice/article" className="text-cyan-600 hover:underline dark:text-cyan-500">
+                  <Link to="/comingsoon" className="text-cyan-600 hover:underline dark:text-cyan-500">
                     Read More
                     </Link>
                 </div>
@@ -104,7 +104,7 @@ export const Article = () => {
                   <p className="text-gray-700 text-base font-['inika']">
                   Gain more knowledge by more efficient reading. Learn them now!
                   </p>
-                  <Link to="/service/advice/article" className="text-cyan-600 hover:underline dark:text-cyan-500">
+                  <Link to="/comingsoon" className="text-cyan-600 hover:underline dark:text-cyan-500">
                     Read More
                     </Link>
                 </div>
@@ -117,7 +117,7 @@ export const Article = () => {
                   <p className="text-gray-700 text-base font-['inika']">
                   Our exclusive guide to unlock the secrets to a successful job search today!
                   </p>
-                  <Link to="/service/advice/article" className="text-cyan-600 hover:underline dark:text-cyan-500">
+                  <Link to="/comingsoon" className="text-cyan-600 hover:underline dark:text-cyan-500">
                     Read More
                     </Link>
                 </div>

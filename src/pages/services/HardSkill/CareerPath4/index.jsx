@@ -6,22 +6,22 @@ import Accordion from '../../../../Components/Accordion';
 const dataAccordion = [
   {
     id: 1,
-    title: 'Part 1 (Introduction to code)',
+    title: 'Part 1 (Introduction to UI & UX)',
     desc: 'desc 1',
   },
   {
     id: 2,
-    title: 'Part 2 (Basic HTML)',
+    title: 'Part 2 (Basic Web Design)',
     desc: 'desc 2',
   },
   {
     id: 3,
-    title: 'Part 3 (Basic CSS)',
+    title: 'Part 3 (Basic Responsive Web)',
     desc: 'desc 3',
   },
 ];
 
-export const CareerPath2 = () => {
+export const CareerPath4 = () => {
   return (
     <>
       <div className="bg-black min-h-screen ">
@@ -30,17 +30,17 @@ export const CareerPath2 = () => {
           <div className="grid max-w-screen-xl  mx-auto gap-8 lg:grid-cols-2 xl:grid-cols-2 items-center">
             <div className="lg:col-span-1 xl:col-span-1 mt-[10vh]">
               <div className="relative w-full h-0" style={{ paddingBottom: '56.25%' }}>
-                <iframe title="YouTube Video" className="absolute inset-0 w-full h-full object-cover mt-10 rounded-md" src="https://www.youtube.com/embed/bJzb-RuUcMU" frameBorder="0" allowFullScreen></iframe>
+                <iframe title="YouTube Video" className="absolute inset-0 w-full h-full object-cover mt-10 rounded-md" src="https://www.youtube.com/embed/gwiX0oASlEw" frameBorder="0" allowFullScreen></iframe>
               </div>
             </div>
 
             <div className="lg:col-span-1 xl:col-span-1 mt-24">
               <div className="text-white text-start text-lg lg:text-xl xl:text-3xl gap-2 col-auto">
-                <h1 className="text-3xl font-bold text-white">Complete Basic Coding for Beginner</h1>
-                <p className="mt-5 text-2xl">Learn how to code from scratch with me: step by step coding course</p>
-                <p className="mt-10 text-1xl">Jesslyn Leon</p>
+                <h1 className="text-3xl font-bold text-white">Responsive Website UI & UX Design </h1>
+                <p className="mt-5 text-2xl">Learn how to make responsive website design that is easy to understand and use.</p>
+                <p className="mt-10 text-1xl">Malik Hills</p>
                 <span className="text-white text-1x1">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (100)</span>
-                <p className="text-1x1">16 Hours - 50+ Lecture</p>
+                <p className="text-1x1">25 Hours 12 Minutes - 47 Lecture</p>
               </div>
               <div className="mt-5">
                 <Link to="/service/hardskill/enroll" className="inline-block border border-white font-semibold text-white py-1 px-2 rounded hover:text-gold w-auto">
@@ -59,15 +59,15 @@ export const CareerPath2 = () => {
                 <h2 className="text-xl font-bold text-center mb-4">Course Takeaways</h2>
                 <br />
                 <br />
-                <p className="text-sm pl-12">&#8226; How to code</p>
+                <p className="text-sm pl-12">&#8226; How to design UI & UX</p>
                 <br />
-                <p className="text-sm pl-12">&#8226; Learn the basic of coding</p>
+                <p className="text-sm pl-12">&#8226; Learn about Web design</p>
                 <br />
-                <p className="text-sm pl-12">&#8226; Build your own website</p>
+                <p className="text-sm pl-12">&#8226; Build responsive website</p>
                 <br />
-                <p className="text-sm pl-12">&#8226; Know more about code</p>
+                <p className="text-sm pl-12">&#8226; How to make a cool responsive website</p>
                 <br />
-                <p className="text-sm pl-12">&#8226; How to code effectively</p>
+                <p className="text-sm pl-12">&#8226; Learn UI/UX a good web design</p>
                 <br />
               </div>
               <div className="bg-black border border-white font-semibold text-white py-4 px-8 rounded">
@@ -76,11 +76,11 @@ export const CareerPath2 = () => {
                 <h2 className="text-xl font-bold text-center mb-4">Course Specification</h2>
                 <br />
                 <br />
-                <p className="text-sm pl-12">&#8226; 16 Hours and 50+ Lecture</p>
+                <p className="text-sm pl-12">&#8226; 25 Hours and 64 Lecture</p>
                 <br />
                 <p className="text-sm pl-12">&#8226; Fulltime Access</p>
                 <br />
-                <p className="text-sm pl-12">&#8226; 5 downloadable resources</p>
+                <p className="text-sm pl-12">&#8226; 22 downloadable resources</p>
               </div>
               <div className="absolute top-0 bottom-0 left-1/2 bg-white w-px h-full"></div>
             </div>
@@ -91,7 +91,7 @@ export const CareerPath2 = () => {
               <h1 className="text-4xl font-bold mb-8 text-center text-white">Courses</h1>
               <br />
               <br />
-              <h1 className="text-left text-xl">10 section - 54 Lecture - 16 hours </h1>
+              <h1 className="text-left text-xl">16 section - 47 Lecture - 25 hours </h1>
               <br />
             </div>
           </div>
@@ -147,19 +147,19 @@ export const CareerPath2 = () => {
               <div className="grid gap-8 justify-items-center mt-16">
                 {/* Team Member 1 */}
                 <div className="flex items-center py-1 px-15">
-                  <img src="/public/image/ment1.png" alt="Team Member 1" className="rounded-full w-40 h-40 object-cover mb-10 ml-20" />
+                  <img src="/public/image/menthard1.png" alt="Team Member 1" className="rounded-full w-40 h-40 object-cover mb-10 ml-20" />
                   <div className="ml-4 p-5">
-                    <h3 className="text-xl pl-20 font-bold text-gold">John Doe</h3>
+                    <h3 className="text-xl pl-20 font-bold text-gold">Malik Hills</h3>
                     <br />
                     <p className="text-sm pl-20 text-white">
-                      John Doe is a successful professional mentor in Harvard University teaching management classes. Hans Leon has created lots of courses with us and has helped students handle their soft skills.{' '}
+                    Malik Hills is a successful professional Full Stack Developer, teaching Coding classes. Malik Hills has created lots of courses with us and has helped students handle their frontend to even backend developer.
                     </p>
                     <br />
                     <p className="text-sm pl-20 text-white">&#8226; 4.5 Instructor Rating</p>
                     <br />
-                    <p className="text-sm pl-20 text-white">&#8226; Has over 80 courses</p>
+                    <p className="text-sm pl-20 text-white">&#8226; Has over 30 courses</p>
                     <br />
-                    <p className="text-sm pl-20 text-white">&#8226; Has over 9,000 students</p>
+                    <p className="text-sm pl-20 text-white">&#8226; Advanced skillset</p>
                   </div>
                 </div>
               </div>

@@ -1,7 +1,7 @@
 import Navbar from '../../../../Components/Navbar';
 import FooterComponent from '../../../../Components/Footer';
 
-export const Leadership = () => {
+export const Leadership2 = () => {
   const divStyle = {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
@@ -20,7 +20,7 @@ export const Leadership = () => {
       <div style={divStyle}>
         <div className="container mx-auto mt-16 flex justify-between items-center">
           <div className="w-1/2">
-            <h1 className="text-3xl font-bold">Leadership when you are the youngest there</h1>
+            <h1 className="text-3xl font-bold">The importance of decision making in leadership</h1>
             <span className="text-white text-xs">4,5 &#9733; &#9733; &#9733; &#9733; &#9734; (1.8k reviews) 8,000 student</span>
             <h1 className="text-2xl font-bold">
               <span style={{ color: 'white' }}>&#x25A0; Course by</span>
@@ -29,16 +29,17 @@ export const Leadership = () => {
             <br />
             <h2 className="text-1xl font-bold">About</h2>
             <br />
-            <h2 className="text-1xl">Sometimes it is challenging to lead within a group of seniors or</h2>
-            <h2 className="text-1xl">older people. In this course, Hans Leon will teach you how to </h2>
-            <h2 className="text-1xl">develop strong leadership and how to manage seniority issues in </h2>
-            <h2 className="text-1xl">gatherings. </h2>
+            <h2 className="text-1xl">Decision making is such an important skill to have as a leader. </h2>
+            <h2 className="text-1xl">With Decision making, we can take the best course of action </h2>
+            <h2 className="text-1xl">everytime we face a problem or want to take the next step. </h2>
+            <h2 className="text-1xl">Therefore, Hans Leon will teach The importance of decision </h2>
+            <h2 className="text-1xl">making in leadership </h2>
             <button>
-              <a href="/services/softskill/enrollsoft" className="inline-block border border-white mt-10 font-semibold text-white py-1 px-2 rounded hover:text-gold w-auto">Enroll Now</a>
+              <a href="/services/softskill/enrollsoft2" className="inline-block border border-white mt-10 font-semibold text-white py-1 px-2 rounded hover:text-gold w-auto">Enroll Now</a>
               </button>
           </div>
           <div className="w-1/2">
-            <img src="/public/image/corsof1.png" alt="Leadership Image" className="w-full h-auto mt-16 mb-16" />
+            <img src="/public/image/corsof4.png" alt="Leadership Image" className="w-full h-auto mt-16 mb-16" />
           </div>
         </div>
       </div>
@@ -52,17 +53,15 @@ export const Leadership = () => {
             <h2 className="text-xl font-bold text-center mb-4">Course Takeaways</h2>
             <br />
             <br />
-            <p className="text-sm pl-12">&#8226; How to leverage strengths</p>
+            <p className="text-sm pl-12">&#8226; The Importance of decision making</p>
             <br />
-            <p className="text-sm pl-12">&#8226; New leadership competences</p>
+            <p className="text-sm pl-12">&#8226; Decision making in leadership</p>
             <br />
-            <p className="text-sm pl-12">&#8226; Build better relationships</p>
+            <p className="text-sm pl-12">&#8226; Strengthen decision making</p>
             <br />
-            <p className="text-sm pl-12">&#8226; How to lead by example</p>
+            <p className="text-sm pl-12">&#8226; How to pick the best decision</p>
             <br />
-            <p className="text-sm pl-12">&#8226; How to communicate effectively</p>
-            <br />
-            <p className="text-sm pl-12">&#8226; Embrace elderlies’ feedback</p>
+            <p className="text-sm pl-12">&#8226; How to handle quick decision even when under pressure</p>
             <br />
           </div>
           <div className="bg-black border border-white font-semibold text-white py-4 px-8 rounded">
@@ -71,11 +70,11 @@ export const Leadership = () => {
             <h2 className="text-xl font-bold text-center mb-4">Course Specification</h2>
             <br />
             <br />
-            <p className="text-sm pl-12">&#8226; Duration = 50:43 minutes</p>
+            <p className="text-sm pl-12">&#8226; Duration = 06:20:15 minutes</p>
             <br />
-            <p className="text-sm pl-12">&#8226; 7 Articles by tutor</p>
+            <p className="text-sm pl-12">&#8226; 5 Articles by tutor</p>
             <br />
-            <p className="text-sm pl-12">&#8226; 5 downloadable resources</p>
+            <p className="text-sm pl-12">&#8226; Tips & Trick</p>
           </div>
           <div className="absolute top-0 bottom-0 left-1/2 bg-white w-px h-full"></div>
         </div>

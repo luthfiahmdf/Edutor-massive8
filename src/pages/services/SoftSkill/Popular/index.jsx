@@ -52,7 +52,7 @@ export const Popular = () => {
             </a>
 
             {/* Team Member 2 */}
-            <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
+            <a href="/comingsoon" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
               <img src="/public/image/corsof2.png" alt="Team Member 2" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
@@ -63,7 +63,7 @@ export const Popular = () => {
             </a>
 
             {/* Team Member 3 */}
-            <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
+            <a href="/comingsoon" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
               <img src="/public/image/corsof3.png" alt="Team Member 3" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
@@ -74,7 +74,7 @@ export const Popular = () => {
             </a>
 
             {/* Team Member 4 */}
-            <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
+            <a href="/service/softskill/leadership2" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
               <img src="/public/image/corsof4.png" alt="Team Member 4" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
@@ -85,7 +85,7 @@ export const Popular = () => {
             </a>
 
             {/* Team Member 5 */}
-            <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
+            <a href="/comingsoon" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
               <img src="/public/image/corsof5.png" alt="Team Member 5" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
@@ -96,7 +96,7 @@ export const Popular = () => {
             </a>
 
             {/* Team Member 6 */}
-            <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
+            <a href="/comingsoon" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
               <img src="/public/image/corsof6.png" alt="Team Member 6" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
@@ -107,7 +107,7 @@ export const Popular = () => {
             </a>
 
             {/* Team Member 7 */}
-            <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
+            <a href="/comingsoon" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
               <img src="/public/image/corsof7.png" alt="Team Member 7" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
@@ -118,7 +118,7 @@ export const Popular = () => {
             </a>
 
             {/* Team Member 8 */}
-            <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
+            <a href="/comingsoon" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
               <img src="/public/image/corsof8.png" alt="Team Member 8" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
@@ -129,7 +129,7 @@ export const Popular = () => {
             </a>
 
             {/* Team Member 9 */}
-            <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
+            <a href="/comingsoon" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
               <img src="/public/image/corsof9.png" alt="Team Member 9" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
@@ -140,7 +140,7 @@ export const Popular = () => {
             </a>
 
             {/* Team Member 10 */}
-            <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
+            <a href="/comingsoon" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
               <img src="/public/image/corsof10.png" alt="Team Member 10" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
@@ -151,7 +151,7 @@ export const Popular = () => {
             </a>
 
             {/* Team Member 11 */}
-            <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
+            <a href="/comingsoon" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
               <img src="/public/image/corsof11.png" alt="Team Member 11" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
@@ -162,7 +162,7 @@ export const Popular = () => {
             </a>
 
             {/* Team Member 12 */}
-            <a href="#" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
+            <a href="/comingsoon" className="bg-gray-300 flex flex-col items-center justify-start border border-black text-black py-2 px-10 hover:bg-gray-500">
               <img src="/public/image/corsof12.png" alt="Team Member 12" className="w-full h-full object-contain" />
               <br />
               <hr className="w-full border-t-2 border-black mb-2" />
@@ -185,26 +185,26 @@ export const Popular = () => {
                 <a href="/service/softskill/popular" className="bg-black border border-white font-semibold text-white py-2 px-8 rounded block hover:text-gold">
                   Leadership
                 </a>
-                <a href="#" className="bg-black border border-white font-semibold text-white py-2 px-10 rounded block hover:text-gold">
+                <a href="/service/softskill/popular2" className="bg-black border border-white font-semibold text-white py-2 px-10 rounded block hover:text-gold">
                   Teamwork
                 </a>
-                <a href="#" className="bg-black border border-white font-semibold text-white py-2 px-11 rounded block hover:text-gold">
+                <a href="/comingsoon" className="bg-black border border-white font-semibold text-white py-2 px-11 rounded block hover:text-gold">
                   Analysis
                 </a>
-                <a href="#" className="bg-black border border-white font-semibold text-white py-2 px-8 rounded block hover:text-gold">
+                <a href="/comingsoon" className="bg-black border border-white font-semibold text-white py-2 px-8 rounded block hover:text-gold">
                   Adaptation
                 </a>
                 {/* Second row */}
-                <a href="#" className="bg-black border border-white font-semibold text-white py-2 px-4 rounded block hover:text-gold">
+                <a href="/comingsoon" className="bg-black border border-white font-semibold text-white py-2 px-4 rounded block hover:text-gold">
                   Public Speaking
                 </a>
-                <a href="#" className="bg-black border border-white font-semibold text-white py-2 px-5 rounded block hover:text-gold">
+                <a href="/comingsoon" className="bg-black border border-white font-semibold text-white py-2 px-5 rounded block hover:text-gold">
                   Communication
                 </a>
-                <a href="#" className="bg-black border border-white font-semibold text-white py-2 px-10 rounded block hover:text-gold">
+                <a href="/comingsoon" className="bg-black border border-white font-semibold text-white py-2 px-10 rounded block hover:text-gold">
                   Creativity
                 </a>
-                <a href="#" className="bg-black border border-white font-semibold text-white py-2 px-8 rounded block hover:text-gold">
+                <a href="/comingsoon" className="bg-black border border-white font-semibold text-white py-2 px-8 rounded block hover:text-gold">
                   Networking
                 </a>
               </div>
