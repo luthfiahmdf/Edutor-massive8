@@ -44,7 +44,7 @@ const cardData = [
   {
     title: 'UI/UX',
     imageUrl: '/public/image/card2.png',
-    linkHref: '/path/to/page2',
+    linkHref: '/service/hardskill/careerpath3',
   },
 ];
 

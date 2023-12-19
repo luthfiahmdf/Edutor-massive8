@@ -10,6 +10,7 @@ import { HardSkill } from './pages/services/HardSkill/index.jsx';
 import { Advice } from './pages/services/Advice/index.jsx';
 import { Leadership } from './pages/services/SoftSkill/Leadership/index.jsx';
 import { Popular } from './pages/services/SoftSkill/Popular/index.jsx';
+import { Popular2 } from './pages/services/SoftSkill/Popular2/index.jsx';
 import { DetailMentors } from './pages/services/HardSkill/DetailsMentors/index.jsx';
 import { Register } from './pages/auth/Register/index.jsx';
 import { CareerPath } from './pages/services/HardSkill/CareerPath/index.jsx';
@@ -17,6 +18,7 @@ import { CareerPath2 } from './pages/services/HardSkill/CareerPath2/index.jsx';
 import { Enroll } from './pages/services/HardSkill/Enroll/index.jsx';
 import { Article } from './pages/services/Advice/Article/index.jsx';
 import { EnrollSoft } from './pages/services/SoftSkill/EnrollSoft/index.jsx';
+import { CareerPath3 } from './pages/services/HardSkill/CareerPath3/index.jsx';
 
 export const Router = createBrowserRouter([
   {
@@ -49,8 +51,16 @@ export const Router = createBrowserRouter([
     element: <Popular />,
   },
   {
+    path: '/service/softskill/popular2',
+    element: <Popular2 />,
+  },
+  {
     path: '/service/hardskill/careerpath2',
     element: <CareerPath2 />,
+  },
+  {
+    path: '/service/hardskill/careerpath3',
+    element: <CareerPath3 />,
   },
   {
     path: '/service/hardskill/enroll',

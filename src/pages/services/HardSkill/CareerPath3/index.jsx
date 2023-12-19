@@ -6,7 +6,7 @@ import course1 from '/image/course1.png';
 import course2 from '/image/course2.png';
 import course3 from '/image/course3.png';
 
-export const CareerPath = () => {
+export const CareerPath3 = () => {
   const cardData = [
     {
       title: 'Back-End Developer',

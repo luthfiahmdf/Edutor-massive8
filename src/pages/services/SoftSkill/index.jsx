@@ -179,7 +179,7 @@ export const SoftSkill = () => {
                 <Link to="/service/softskill/popular" className="bg-black border border-white font-semibold text-white py-2 px-8 rounded block hover:text-gold">
                   Leadership
                 </Link>
-                <a href="#" className="bg-black border border-white font-semibold text-white py-2 px-10 rounded block hover:text-gold">
+                <a href="/service/softskill/popular2" className="bg-black border border-white font-semibold text-white py-2 px-10 rounded block hover:text-gold">
                   Teamwork
                 </a>
                 <a href="#" className="bg-black border border-white font-semibold text-white py-2 px-11 rounded block hover:text-gold">
