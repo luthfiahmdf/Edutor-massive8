@@ -25,9 +25,10 @@ export const Login = () => {
               <input type="password" name="password" id="password" className="bg-gray-50 border border-gray-300 text-textColor text-sm rounded-lg block w-full p-2.5 shadow-sm" placeholder="Password..." required />
             </div>
             <div className="flex justify-center flex-col items-center">
-              <button type="submit" className="w-52 px-3 py-2 mb-3 text-base font-bold shadow-sm text-center bg-primary hover:bg-secondary text-white bg-black rounded-lg focus:ring-4 focus:ring-blue-300 mx-auto">
-                Login
-              </button>
+            <a href="/" class="w-52 px-3 py-2 mb-3 text-base font-bold shadow-sm text-center bg-primary hover:bg-secondary text-white bg-black rounded-lg focus:ring-4 focus:ring-blue-300 mx-auto">
+  Login
+</a>
+
               <button type="submit" className="w-52 px-3 py-2 text-base font-bold shadow-sm border border-black text-center bg-primary hover:bg-secondary text-black bg-white rounded-lg focus:ring-4 focus:ring-blue-300 mx-auto">
                 Guest Account
               </button>

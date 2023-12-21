@@ -30,9 +30,9 @@ export const Register = () => {
               <input type="password" name="confirmPassword" id="confirmPassword" className="bg-gray-50 border border-gray-300 text-textColor text-sm rounded-lg block w-full p-2.5 shadow-md" placeholder="Confirm Password..." required />
             </div>
             <div className="flex justify-center flex-col items-center">
-              <button type="submit" className="w-52 px-3 py-2 mb-1 text-base font-bold text-center shadow-md bg-primary hover:bg-secondary text-white bg-black rounded-lg focus:ring-4 focus:ring-blue-300 mx-auto">
-                Register
-              </button>
+            <a href="/login" class="w-52 px-3 py-2 mb-1 text-base font-bold text-center shadow-md bg-primary hover:bg-secondary text-white bg-black rounded-lg focus:ring-4 focus:ring-blue-300 mx-auto">
+    Register
+  </a>
             </div>
 
             {/* Text and social media login buttons */}
